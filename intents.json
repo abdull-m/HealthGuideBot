@@ -1,0 +1,1697 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi there",
+        "How are you",
+        "Is anyone there?",
+        "Hey",
+        "Hola",
+        "Hello",
+        "Good day",
+        "Greetings",
+        "What's up?",
+        "Hey, how's it going?",
+        "Salutations",
+        "Anybody home?",
+        "Top of the morning to you",
+        "Yo!",
+        "Hi, what's happening?"
+      ],
+      "responses": [
+        "Hello! Thanks for reaching out.",
+        "Good to see you! How can I assist you today?",
+        "Hi there! How can I help?",
+        "Hey! I'm here to help. What can I do for you?",
+        "Hola! How can I assist you today?",
+        "Greetings! What brings you here?",
+        "Hey, what's up? How can I assist you?",
+        "Salutations! How may I help you?",
+        "Hello! I'm here and ready to assist.",
+        "What can I do for you today?",
+        "Hi! What brings you to me?",
+        "Top of the morning! How can I assist you?",
+        "Hey there! What's on your mind?",
+        "Hi, good to see you! How can I help?",
+        "Hey! What's happening? How can I assist you?"
+      ],
+      "context": [""]
+    }
+    ,
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Nice chatting to you, bye",
+        "Till next time",
+        "Farewell",
+        "Take care",
+        "Until we meet again",
+        "Adios",
+        "So long",
+        "Catch you later",
+        "It's been a pleasure",
+        "Time to go",
+        "I'm off",
+        "Goodnight",
+        "See you around",
+        "Toodles",
+        "Ciao",
+        "Hasta luego",
+        "Peace out"
+      ],
+      "responses": [
+        "See you!",
+        "Have a nice day!",
+        "Goodbye! Come back again soon.",
+        "Farewell! Take care.",
+        "Until next time!",
+        "Adios! Safe travels.",
+        "So long! It was great chatting with you.",
+        "Take care of yourself!",
+        "Goodbye! Wishing you a wonderful day.",
+        "Catch you later! Feel free to return anytime.",
+        "It's been a pleasure chatting with you. Goodbye!",
+        "Time to go! If you have more questions, feel free to ask.",
+        "I'm off. Have a fantastic day!",
+        "Goodnight! Sleep well.",
+        "See you around! If you ever need assistance, I'm here.",
+        "Toodles! Until next time.",
+        "Ciao! Have a great day.",
+        "Hasta luego! Take care and see you soon.",
+        "Peace out! If you need anything else, don't hesitate to ask."
+      ],
+      "context": [""]
+    }
+    ,
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Awesome, thanks",
+        "Thanks for helping me",
+        "Appreciate it",
+        "You're a lifesaver",
+        "Grateful for your assistance",
+        "Big thank you",
+        "Many thanks",
+        "Thanks a bunch",
+        "You've been very helpful",
+        "I'm thankful for your support",
+        "Much obliged",
+        "Thank you so much",
+        "I owe you one",
+        "You rock",
+        "You're the best",
+        "I appreciate your help",
+        "Thanks a million"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Anytime!",
+        "My pleasure!",
+        "Glad I could assist!",
+        "You're welcome!",
+        "No problem at all!",
+        "You're very welcome!",
+        "I'm here to help anytime you need.",
+        "It was my pleasure to assist you!",
+        "You're most welcome!",
+        "Thanks for reaching out!",
+        "I appreciate your kind words!",
+        "Always here to help!",
+        "No need to thank me!",
+        "It's what I'm here for!",
+        "You're appreciated!",
+        "You're awesome!",
+        "I'm glad I could be of assistance!",
+        "You made my day! Thank you!",
+        "Thanks a bunch for your kind words!"
+      ],
+      "context": [""]
+    }
+    ,
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": ["Sorry, I can't understand you", "Please provide more info", "Not sure I understand"],
+      "context": [""]
+    },
+
+    {
+      "tag": "options",
+      "patterns": ["How can you help me?", "What services do you offer?", "What support is available?", "How can you assist me?", "Tell me about your capabilities"],
+      "responses": ["I can guide you through adverse drug reactions, blood pressure tracking, and provide information about hospitals and pharmacies.", "Offering support for adverse drug reactions, blood pressure, hospitals, and pharmacies"],
+      "context": [""]
+    },
+
+    {
+  "tag": "adverse_drug",
+  "patterns": [
+    "How to check adverse drug reactions?",
+    "Open adverse drugs module",
+    "List drugs causing adverse behavior",
+    "Drugs suitable for patients with adverse reactions",
+    "Which drugs don't have adverse reactions?",
+    "Tell me about drug side effects",
+    "How to manage adverse reactions?",
+    "Adverse drug information",
+    "Explore adverse effects of medications",
+    "What are the common adverse effects?",
+    "Adverse reactions by drug class",
+    "Any tips for minimizing adverse drug effects?",
+    "Can you provide a list of recent adverse reactions?",
+    "Tell me more about drug safety",
+    "Guidelines for handling adverse drug events",
+    "Any recent updates on adverse drug studies?",
+    "What's the latest information on medication safety?"
+  ],
+  "responses": [
+    "Navigating to the adverse drug reaction module.",
+    "You can access information on adverse drug reactions in the designated module.",
+    "Sure, let me guide you to the adverse drug reaction module.",
+    "I can assist you with adverse drug reactions. Navigating to the relevant module.",
+    "Opening the adverse drug reaction module for you."
+  ],
+  "context": [""]
+}
+,
+
+{
+  "tag": "blood_pressure",
+  "patterns": [
+    "Open blood pressure module",
+    "Tasks related to blood pressure",
+    "Blood pressure data entry",
+    "Log blood pressure results",
+    "Blood pressure data management",
+    "How to record blood pressure?",
+    "Access blood pressure features",
+    "Tell me about blood pressure tracking",
+    "Blood pressure module functionalities",
+    "What are the key features of the blood pressure module?",
+    "Can you guide me on entering blood pressure data?",
+    "Any tips for accurate blood pressure recording?",
+    "Tell me about trends in blood pressure management",
+    "How often should I log blood pressure?",
+    "What's the recommended frequency for blood pressure checks?",
+    "Any reminders for blood pressure monitoring?",
+    "Can you provide insights on interpreting blood pressure results?",
+    "Tell me more about the importance of blood pressure monitoring"
+  ],
+  "responses": [
+    "Navigating to the Blood Pressure module.",
+    "You can manage and log blood pressure results in the dedicated Blood Pressure module.",
+    "Sure, let's explore the blood pressure module together.",
+    "Opening the blood pressure module for you.",
+    "I can assist you with blood pressure-related tasks. Navigating to the relevant module."
+  ],
+  "context": [""]
+}
+,
+{
+  "tag": "blood_pressure_search",
+  "patterns": [
+    "Search for blood pressure result history",
+    "Blood pressure for a patient",
+    "Load patient blood pressure result",
+    "Show blood pressure results for a patient",
+    "Find blood pressure results by ID",
+    "Retrieve blood pressure data",
+    "Patient-specific blood pressure results",
+    "Access individual blood pressure records",
+    "Can you pull up my recent blood pressure readings?",
+    "Retrieve blood pressure data for a specific date",
+    "Search for historical blood pressure results",
+    "Find blood pressure records by patient name",
+    "Can you show me trends in my blood pressure data?",
+    "Retrieve comprehensive blood pressure report",
+    "Show me average blood pressure over the last month",
+    "Access detailed blood pressure information for a patient",
+    "Search for blood pressure trends by patient ID"
+  ],
+  "responses": [
+    "Please provide the Patient ID.",
+    "Patient ID, please?",
+    "Sure, I'll need the Patient ID to proceed.",
+    "To assist you better, could you provide the Patient ID?",
+    "Certainly, I can help with that. Could you please provide the Patient ID?"
+  ],
+  "context": ["search_blood_pressure_by_patient_id"]
+},
+{
+  "tag": "provide_patient_id",
+  "patterns": ["My Patient ID is [Patient_ID]", "The Patient ID is [Patient_ID]"],
+  "responses": ["Great! Let me fetch the results for Patient ID [Patient_ID]."],
+  "context": ["search_blood_pressure_by_patient_id"]
+},
+{
+  "tag": "search_blood_pressure_by_patient_id",
+  "patterns": [],
+  "responses": ["Loading Blood pressure results for the patient"],
+  "context": [""]
+},
+    {
+      "tag": "pharmacy_search",
+      "patterns": ["Find me a pharmacy", "Find pharmacy", "List of pharmacies nearby", "Locate pharmacy", "Search pharmacy"],
+      "responses": ["Please provide the pharmacy name"],
+      "context": ["search_pharmacy_by_name"]
+    },
+    {
+      "tag": "search_pharmacy_by_name",
+      "patterns": [],
+      "responses": ["Loading pharmacy details"],
+      "context": [""]
+    },
+    {
+      "tag": "hospital_search",
+      "patterns": [
+        "Lookup for a hospital",
+        "Searching for a hospital to transfer a patient",
+        "I want to search hospital data",
+        "Hospital lookup for a patient",
+        "Looking up hospital details",
+        "Find hospitals nearby",
+        "Search hospitals in my area",
+        "Hospitals around me",
+        "Find nearby medical centers"
+      ],
+      "responses": ["Please provide hospital name or location"],
+      "context": ["search_hospital_by_params"]
+    },
+    {
+      "tag": "search_hospital_by_params",
+      "patterns": ["What type of hospital are you looking for?", "Tell me the hospital type", "Search based on hospital type", "Specify the hospital type", "Looking for a specific type of hospital"],
+      "responses": ["Please provide hospital type"],
+      "context": ["search_hospital_by_type"]
+    },
+    {
+      "tag": "search_hospital_by_type",
+      "patterns": [
+        "General hospital",
+        "Specialty hospital",
+        "Children's hospital",
+        "Maternity hospital",
+        "Cancer center",
+        "Cardiac hospital",
+        "Psychiatric hospital",
+        "Emergency clinic",
+        "Urgent care center",
+        "Orthopedic hospital",
+        "Neurological hospital",
+        "Dental clinic",
+        "Gastroenterology center",
+        "Rehabilitation hospital",
+        "ENT clinic",
+        "Ophthalmology hospital",
+        "Dermatology clinic",
+        "Women's health center",
+        "Geriatric hospital",
+        "Internal medicine clinic",
+        "Allergy and Immunology center",
+        "Physical therapy clinic",
+        "Pulmonology hospital",
+        "Endocrinology clinic",
+        "Nephrology hospital",
+        "Rheumatology clinic",
+        "Oncology hospital",
+        "Orthodontic clinic",
+        "Pediatric hospital",
+        "Podiatry clinic",
+        "Urology hospital",
+        "Plastic surgery clinic",
+        "Vascular surgery hospital",
+        "Pain management clinic",
+        "Podiatric hospital",
+        "Gynecology clinic",
+        "Infectious Disease hospital",
+        "Dental surgery clinic",
+        "Hematology hospital",
+        "Otolaryngology clinic",
+        "Family medicine hospital",
+        "Gynecological surgery clinic",
+        "Sleep medicine hospital"
+      ],
+      "responses": [
+        "Loading hospital details.",
+        "Retrieving information for the specified hospital type.",
+        "Searching for hospitals of the specified type. Please wait a moment.",
+        "Processing your request to load details for the specified hospital type.",
+        "Fetching details for hospitals of the specified type.",
+        "Loading information about hospitals of the specified type.",
+        "Retrieving hospital details based on the provided type.",
+        "Searching for hospitals of the specified type. Please wait a moment.",
+        "Loading details for hospitals categorized as the specified type.",
+        "Retrieving information for hospitals of the specified type. Please wait.",
+        "Getting details for hospitals of the specified type. Please wait.",
+        "Searching for hospitals based on the specified type. One moment please.",
+        "Loading information about hospitals categorized as the specified type. Please wait.",
+        "Retrieving details for hospitals of the specified type. One moment please.",
+        "Accessing information for hospitals categorized as the specified type.",
+        "Searching for hospitals based on the specified type. One moment please.",
+        "Loading details for hospitals categorized as the specified type. Please wait.",
+        "Retrieving information for hospitals of the specified type. Please wait a moment.",
+        "Searching for hospitals based on the specified type. One moment please.",
+        "Loading details for hospitals categorized as the specified type. Please wait.",
+        "Retrieving information for hospitals of the specified type. One moment please.",
+        "Searching for hospitals based on the specified type. Please wait a moment.",
+        "Loading details for hospitals categorized as the specified type. Please wait.",
+        "Retrieving information for hospitals of the specified type. One moment please.",
+        "Searching for hospitals based on the specified type. Please wait a moment.",
+        "Loading details for hospitals categorized as the specified type. Please wait.",
+        "Retrieving information for hospitals of the specified type. One moment please.",
+        "Searching for hospitals based on the specified type. Please wait a moment.",
+        "Loading details for hospitals categorized as the specified type. Please wait.",
+        "Retrieving information for hospitals of the specified type. One moment please.",
+        "Searching for hospitals based on the specified type. Please wait a moment.",
+        "Loading details for hospitals categorized as the specified type. Please wait.",
+        "Retrieving information for hospitals of the specified type. One moment please.",
+        "Searching for hospitals based on the specified type. Please wait a moment.",
+        "Loading details for hospitals categorized as the specified type. Please wait.",
+        "Retrieving information for hospitals of the specified type. One moment please.",
+        "Searching for hospitals based on the specified type. Please wait a moment.",
+        "Loading details for hospitals categorized as the specified type. Please wait.",
+        "Retrieving information for hospitals of the specified type. One moment please.",
+        "Searching for hospitals based on the specified type. Please wait a moment.",
+        "Loading details for hospitals categorized as the specified type. Please wait.",
+        "Retrieving information for hospitals of the specified type. One moment please."
+      ],
+      "context": [""]
+    }
+    ,
+    {
+      "tag": "schedule_hospital_appointment",
+      "patterns": [
+        "I prefer a morning appointment",
+        "Can I get an afternoon slot?",
+        "Evening appointment suits me",
+        "Any available time on the weekend?",
+        "I need a specific time on [day]",
+        "Flexible with the appointment time",
+        "I want to schedule a check-up",
+        "Book an appointment for a medical consultation",
+        "Are there any evening slots for appointments?",
+        "Can I schedule a follow-up appointment?",
+        "Looking for available time slots this week",
+        "Book an appointment for a routine health check",
+        "Are there any morning slots available?",
+        "Can I schedule an appointment for a specialist?",
+        "I need to see a doctor. What's the earliest appointment?",
+        "Book an appointment for a second opinion",
+        "Any open slots for a vaccination appointment?",
+        "Can I schedule an appointment for a blood test?",
+        "I'm looking to schedule a surgical consultation",
+        "Any available time for a telehealth appointment?",
+        "Can I book an appointment for a physical therapy session?",
+        "I want to schedule an appointment for an X-ray",
+        "Any afternoon slots for dental appointments?",
+        "I need an appointment for a mental health consultation",
+        "Can I schedule an appointment for an ultrasound?",
+        "I want to book an appointment for an eye examination",
+        "Any weekend slots for medical imaging appointments?",
+        "I'm looking to schedule an appointment for a chiropractic session",
+        "Can I book an appointment for a nutrition consultation?",
+        "I need an appointment for a hearing test",
+        "Any available time slots for a diabetes consultation?",
+        "Can I schedule an appointment for a skin care consultation?",
+        "I want to book an appointment for a physical examination",
+        "Any open slots for a gynecological consultation?",
+        "I'm looking to schedule an appointment for a cardiology consultation",
+        "Can I book an appointment for a respiratory test?",
+        "I need an appointment for a gastroenterology consultation",
+        "Any available time for a sleep study appointment?",
+        "Can I schedule an appointment for a dental cleaning?",
+        "I want to book an appointment for a vaccination shot",
+        "Any weekend slots for a radiology appointment?",
+        "I'm looking to schedule an appointment for a nephrology consultation",
+        "Can I book an appointment for a podiatry session?",
+        "I need an appointment for a pain management consultation",
+        "Any open slots for a urology consultation?"
+      ],
+      "responses": [
+        "Great! Your appointment is scheduled. You will receive a confirmation shortly.",
+        "Your appointment request has been received. Expect a confirmation shortly.",
+        "Appointment scheduled! Confirmation details will be sent to you.",
+        "Fantastic! Your appointment is confirmed. Details will be sent shortly.",
+        "Appointment booked successfully! Confirmation details are on the way.",
+        "Thank you for scheduling with us! Confirmation details coming your way.",
+        "Your appointment is set! Expect confirmation details shortly.",
+        "Appointment confirmed! Details will be sent to you shortly.",
+        "Great choice! Your appointment is booked. Confirmation details incoming.",
+        "Appointment successfully scheduled! Confirmation details will be sent shortly.",
+        "Your appointment request is in! Confirmation details on the way.",
+        "Appointment booked! Confirmation details will be sent shortly.",
+        "Fantastic! Your appointment is confirmed. Details will be sent shortly.",
+        "Your appointment request has been received. Expect a confirmation shortly.",
+        "Appointment scheduled! Confirmation details will be sent to you.",
+        "Great! Your appointment is booked. Confirmation details on the way.",
+        "Appointment confirmed! Details will be sent to you shortly.",
+        "Thank you for scheduling with us! Confirmation details coming your way.",
+        "Your appointment is set! Expect confirmation details shortly.",
+        "Appointment booked successfully! Confirmation details are on the way.",
+        "Great choice! Your appointment is booked. Confirmation details incoming.",
+        "Appointment successfully scheduled! Confirmation details will be sent shortly.",
+        "Your appointment request is in! Confirmation details on the way.",
+        "Appointment booked! Confirmation details will be sent shortly.",
+        "Fantastic! Your appointment is confirmed. Details will be sent shortly.",
+        "Your appointment request has been received. Expect a confirmation shortly.",
+        "Appointment scheduled! Confirmation details will be sent to you.",
+        "Great! Your appointment is booked. Confirmation details on the way.",
+        "Appointment confirmed! Details will be sent to you shortly.",
+        "Thank you for scheduling with us! Confirmation details coming your way.",
+        "Your appointment is set! Expect confirmation details shortly.",
+        "Appointment booked successfully! Confirmation details are on the way.",
+        "Great choice! Your appointment is booked. Confirmation details incoming.",
+        "Appointment successfully scheduled! Confirmation details will be sent shortly.",
+        "Your appointment request is in! Confirmation details on the way.",
+        "Appointment booked! Confirmation details will be sent shortly.",
+        "Fantastic! Your appointment is confirmed. Details will be sent shortly.",
+        "Your appointment request has been received. Expect a confirmation shortly.",
+        "Appointment scheduled! Confirmation details will be sent to you.",
+        "Great! Your appointment is booked. Confirmation details on the way.",
+        "Appointment confirmed! Details will be sent to you shortly.",
+        "Thank you for scheduling with us! Confirmation details coming your way.",
+        "Your appointment is set! Expect confirmation details shortly.",
+        "Appointment booked successfully! Confirmation details are on the way.",
+        "Great choice! Your appointment is booked. Confirmation details incoming.",
+        "Appointment successfully scheduled! Confirmation details will be sent shortly.",
+        "Your appointment request is in! Confirmation details on the way."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "hospital_services",
+      "patterns": [
+        "Tell me about the services at the hospital",
+        "What medical services do you offer?",
+        "Services provided by the hospital",
+        "List of healthcare services",
+        "Details about hospital facilities",
+        "Can you share information about your specialized services?",
+        "Tell me about the medical treatments available",
+        "What kind of surgeries are performed at the hospital?",
+        "Inform me about the healthcare options you provide",
+        "Share details about the hospital's diagnostic services",
+        "What are the emergency medical services available?",
+        "List the specialties covered by your hospital",
+        "Can you provide information about the maternity services?",
+        "Tell me about the outpatient services offered",
+        "What types of therapy services are available?",
+        "Give details about the surgical facilities at the hospital",
+        "Describe the pediatric services provided",
+        "What preventive care services do you offer?",
+        "Tell me about the laboratory and testing services",
+        "Inform me about the mental health services available",
+        "Share details about the dental services offered",
+        "What advanced medical technologies do you use?",
+        "Can you provide information about the cardiology services?",
+        "Tell me about the radiology and imaging services",
+        "What rehabilitation services are available?",
+        "Describe the urology and nephrology services",
+        "Give details about the oncology services provided",
+        "What kind of patient education programs do you have?",
+        "Tell me about the nutrition and dietary services",
+        "Share information about the geriatric care services",
+        "What are the orthopedic services offered?",
+        "Inform me about the infectious disease care services",
+        "Describe the palliative care services provided",
+        "What specialized departments do you have?",
+        "Tell me about the women's health services",
+        "What are the allergy and immunology services available?",
+        "Share details about the pain management services",
+        "Inform me about the podiatry services provided",
+        "What services do you offer for chronic diseases?",
+        "Tell me about the plastic and reconstructive surgery services",
+        "Describe the vascular surgery and services",
+        "What kind of telehealth services do you provide?",
+        "Inform me about the sleep medicine services offered",
+        "Share details about the infectious disease care services",
+        "What dermatology services are available?",
+        "Tell me about the gastroenterology services",
+        "What services are available for endocrinology?",
+        "Inform me about the pulmonology services provided",
+        "Describe the rheumatology services offered",
+        "What neurology services do you provide?",
+        "Tell me about the ophthalmology services",
+        "What kind of dental surgery services are available?"
+      ],
+      "responses": [
+        "Our hospital provides a range of services including medical consultations, surgeries, emergency care, and more.",
+        "We offer comprehensive healthcare services, including medical consultations, diagnostic procedures, and specialized treatments.",
+        "The hospital provides a variety of healthcare services, such as medical consultations, surgeries, and diagnostic tests.",
+        "Our hospital is equipped with a range of healthcare services, from medical consultations to advanced surgeries.",
+        "We have a diverse range of healthcare services, including medical consultations, diagnostic tests, and specialized treatments.",
+        "At our hospital, you can access a wide range of healthcare services, including medical consultations, surgeries, and emergency care.",
+        "Our hospital is committed to providing quality healthcare services, from medical consultations to specialized treatments.",
+        "We offer a variety of healthcare services, including medical consultations, surgeries, and diagnostic procedures.",
+        "The hospital is equipped with a comprehensive range of healthcare services, ensuring quality medical care for our patients.",
+        "Our hospital's services cover a wide spectrum, including medical consultations, surgeries, and specialized treatments.",
+        "We provide a variety of healthcare services, ensuring that our patients receive comprehensive medical care.",
+        "At our hospital, you can expect a range of healthcare services, from medical consultations to advanced surgical procedures.",
+        "We are dedicated to providing a range of healthcare services, including medical consultations, surgeries, and diagnostic tests.",
+        "Our hospital's services include medical consultations, surgeries, emergency care, and various specialized treatments.",
+        "We offer a diverse range of healthcare services, ensuring that our patients receive comprehensive and quality medical care.",
+        "Our hospital provides a variety of healthcare services, such as medical consultations, surgeries, and diagnostic tests.",
+        "We have a diverse range of healthcare services, including medical consultations, diagnostic tests, and specialized treatments.",
+        "At our hospital, you can access a wide range of healthcare services, including medical consultations, surgeries, and emergency care.",
+        "Our hospital is committed to providing quality healthcare services, from medical consultations to specialized treatments.",
+        "We offer a variety of healthcare services, including medical consultations, surgeries, and diagnostic procedures.",
+        "The hospital is equipped with a comprehensive range of healthcare services, ensuring quality medical care for our patients.",
+        "Our hospital's services cover a wide spectrum, including medical consultations, surgeries, and specialized treatments.",
+        "We provide a variety of healthcare services, ensuring that our patients receive comprehensive medical care.",
+        "At our hospital, you can expect a range of healthcare services, from medical consultations to advanced surgical procedures.",
+        "We are dedicated to providing a range of healthcare services, including medical consultations, surgeries, and diagnostic tests.",
+        "Our hospital's services include medical consultations, surgeries, emergency care, and various specialized treatments.",
+        "We offer a diverse range of healthcare services, ensuring that our patients receive comprehensive and quality medical care."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "hospital_doctors",
+      "patterns": [
+        "Find a doctor at the hospital",
+        "List of doctors available",
+        "Search for a specific doctor",
+        "Doctor specialties at the hospital",
+        "Which doctors are on duty?",
+        "I need information about hospital physicians"
+      ],
+      "responses": ["Sure, I can help you with that. Please provide the name or specialty of the doctor you're looking for."],
+      "context": ["search_hospital_doctors"]
+    },
+    {
+      "tag": "search_hospital_doctors",
+      "patterns": [
+        "Looking for [doctor name]",
+        "Doctors specializing in [specialty]",
+        "Search for [doctor name]'s availability",
+        "Available physicians for [specialty]",
+        "Find [doctor name] in the directory",
+        "Specific doctor's schedule"
+      ],
+      "responses": ["Loading information about the doctor. Please wait."],
+      "context": [""]
+    },
+    {
+      "tag": "hospital_location",
+      "patterns": [
+        "Where is the hospital located?",
+        "Hospital address",
+        "Tell me about the hospital's location",
+        "Directions to the hospital",
+        "Locate the hospital",
+        "Address of the medical center"
+      ],
+      "responses": ["The hospital is located at [address]. If you need detailed directions, please let me know."],
+      "context": [""]
+    },
+    {
+      "tag": "hospital_insurance",
+      "patterns": [
+        "Does the hospital accept insurance?",
+        "Insurance information for patients",
+        "Which insurance plans are accepted?",
+        "Billing and insurance details",
+        "Can I use my insurance at the hospital?",
+        "Policy coverage at the medical center"
+      ],
+      "responses": ["Yes, the hospital accepts various insurance plans. To provide accurate information, please specify the name of your insurance provider."],
+      "context": [""]
+    },
+    {
+      "tag": "hospital_emergencies",
+      "patterns": [
+        "What should I do in case of an emergency?",
+        "Emergency procedures at the hospital",
+        "Hospital emergency response",
+        "Steps during a medical emergency",
+        "Contact for emergencies",
+        "Emergency room information"
+      ],
+      "responses": ["In case of an emergency, please dial 991. If you're at the hospital, head to the nearest emergency room for immediate assistance."],
+      "context": [""]
+    },
+    {
+      "tag": "hospital_departments",
+      "patterns": [
+        "List of hospital departments",
+        "What departments are there in the hospital?",
+        "Tell me about the different hospital units",
+        "Departments at the medical center",
+        "Specialized units in the hospital",
+        "Information on healthcare departments"
+      ],
+      "responses": ["The hospital has various departments including cardiology, pediatrics, oncology, neurology, and more. If you're interested in a specific department, feel free to ask for details."],
+      "context": [""]
+    },
+    {
+      "tag": "hospital_parking",
+      "patterns": [
+        "Is there parking available at the hospital?",
+        "Parking facilities at the medical center",
+        "Information on hospital parking",
+        "Parking spaces for patients",
+        "Where can I park at the hospital?",
+        "Parking rates and availability"
+      ],
+      "responses": ["Yes, the hospital provides parking facilities for patients and visitors. If you have specific questions about parking, feel free to ask."],
+      "context": [""]
+    },
+    {
+      "tag": "hospital_visiting_hours",
+      "patterns": [
+        "What are the visiting hours at the hospital?",
+        "Visitation timings for patients",
+        "Hospital visiting schedule",
+        "When can I visit a patient?",
+        "Information on visiting hours",
+        "Allowed hours for visitors"
+      ],
+      "responses": ["The hospital's visiting hours are [visiting hours]. Please note that visiting hours may vary by department. If you have specific visitation preferences, let me know."],
+      "context": [""]
+    },
+    {
+      "tag": "hospital_feedback",
+      "patterns": [
+        "How can I provide feedback about the hospital?",
+        "Submit feedback for the medical center",
+        "Hospital review and feedback",
+        "Share my experience at the hospital",
+        "Feedback and suggestions for improvement",
+        "Patient satisfaction survey"
+      ],
+      "responses": ["We value your feedback! You can share your experience or provide suggestions by visiting our website or contacting our feedback department. Thank you for helping us improve."],
+      "context": [""]
+    },
+    {
+      "tag": "appointment_modification",
+      "patterns": [
+        "Can I reschedule my appointment?",
+        "Change my hospital appointment time",
+        "I need to cancel my scheduled appointment"
+      ],
+      "responses": ["Sure, I can assist you with that. Please provide your appointment details."],
+      "context": [""]
+    },
+    {
+      "tag": "medication_information",
+      "patterns": [
+        "Tell me about [specific drug] side effects",
+        "Medication details for [patient name]",
+        "How to manage medication side effects?"
+      ],
+      "responses": ["Providing information about the medication. Please specify the drug or patient name."],
+      "context": [""]
+    },
+    {
+      "tag": "health_condition_queries",
+      "patterns": [
+        "Information about diabetes",
+        "Tell me more about heart conditions",
+        "What are the symptoms of [specific illness]?"
+      ],
+      "responses": ["Sure, I can provide information about various health conditions. Please specify the condition you're interested in."],
+      "context": [""]
+    },
+    {
+      "tag": "general_health_tips",
+      "patterns": [
+        "Give me some health tips",
+        "How to maintain a healthy lifestyle?",
+        "Suggest a healthy diet plan"
+      ],
+      "responses": ["Certainly! Here are some general health tips: [provide health tips]. If you have specific health concerns, feel free to ask for personalized advice."],
+      "context": [""]
+    },
+    {
+      "tag": "insurance_details",
+      "patterns": [
+        "Which insurance plans cover [specific procedure]?",
+        "Details about my insurance coverage",
+        "Insurance requirements for hospital services"
+      ],
+      "responses": ["To provide accurate information, please specify the name of your insurance provider or the procedure you're inquiring about."],
+      "context": [""]
+    },
+    {
+      "tag": "pharmacy_product_availability",
+      "patterns": [
+        "Is [specific medication] available at pharmacies nearby?",
+        "Check the availability of [brand name] at pharmacies",
+        "Locate pharmacies with [specific product]"
+      ],
+      "responses": ["Sure, I can help you check the availability of the medication or product. Please provide more details."],
+      "context": [""]
+    },
+    {
+      "tag": "emergency_preparedness",
+      "patterns": [
+        "What should I include in a medical emergency kit?",
+        "Steps to take during a health emergency",
+        "Emergency contact information"
+      ],
+      "responses": ["Being prepared for emergencies is important. Here are some guidelines for creating a medical emergency kit and steps to take during a health emergency."],
+      "context": [""]
+    },
+    {
+      "tag": "feedback_and_complaints",
+      "patterns": [
+        "I had a bad experience, how can I provide feedback?",
+        "Complaints about hospital services",
+        "Share my dissatisfaction with a recent visit"
+      ],
+      "responses": ["We're sorry to hear about your experience. Your feedback is important to us. You can provide feedback by visiting our website or contacting our feedback department."],
+      "context": [""]
+    },
+    {
+      "tag": "post_appointment_follow_up",
+      "patterns": [
+        "What should I do after my appointment?",
+        "Post-appointment care instructions",
+        "Follow-up procedures after seeing a doctor"
+      ],
+      "responses": ["After your appointment, it's important to follow any post-care instructions provided by your healthcare provider. If you have specific questions about post-appointment care or need further guidance, feel free to ask."],
+      "context": [""]
+      },
+      {
+      "tag": "hospital_facilities",
+      "patterns": [
+      "Tell me about the facilities at the hospital",
+      "What facilities are available for patients?",
+      "Information about hospital amenities",
+      "Facilities for patients at the medical center"
+      ],
+      "responses": ["Our hospital is equipped with various facilities to ensure the comfort and well-being of patients. These include waiting areas, cafeterias, and more. If you have specific facility-related inquiries, let me know."],
+      "context": [""]
+      },
+      {
+      "tag": "appointment_confirmation",
+      "patterns": [
+      "Can you confirm my hospital appointment?",
+      "Verify my scheduled appointment",
+      "Check if my appointment is confirmed"
+      ],
+      "responses": ["Sure, I can help you with that. Please provide your appointment details, and I'll confirm it for you."],
+      "context": [""]
+      },
+      {
+      "tag": "cancel_appointment",
+      "patterns": [
+      "I need to cancel my hospital appointment",
+      "Cancel the scheduled appointment",
+      "Cancle my appointment on [specific date]"
+      ],
+      "responses": ["Certainly, I can assist you with canceling your appointment. Please provide the details of the appointment you wish to cancel."],
+      "context": ["cancel_hospital_appointment"]
+      },
+      {
+      "tag": "cancel_hospital_appointment",
+      "patterns": [
+      "I changed my mind about canceling the appointment",
+      "Continue with the scheduled appointment",
+      "Retain the existing appointment",
+      "Keep the appointment as is"
+      ],
+      "responses": ["Great! Your appointment remains scheduled. If you have any further questions or requests, feel free to let me know."],
+      "context": [""]
+      },
+      {
+      "tag": "health_insurance_plans",
+      "patterns": [
+      "Tell me about available health insurance plans",
+      "Information on health insurance",
+      "Health insurance options at the hospital",
+      "Available insurance policies"
+      ],
+      "responses": ["We offer a variety of health insurance plans to cater to different needs. To provide information tailored to your requirements, please specify the type of coverage or policy you're interested in."],
+      "context": [""]
+      },
+      {
+      "tag": "prescription_refill",
+      "patterns": [
+      "How to refill prescriptions?",
+      "Request prescription refill",
+      "Prescription renewal process",
+      "Renew my medications"
+      ],
+      "responses": ["Sure, I can assist you with the prescription refill process. Please provide the details of the prescription you'd like to renew."],
+      "context": ["prescription_refill_details"]
+      },
+      {
+      "tag": "prescription_refill_details",
+      "patterns": [],
+      "responses": ["Processing your prescription refill request. This may take a moment."],
+      "context": [""]
+      },
+      {
+      "tag": "hospital_rooms",
+      "patterns": [
+      "Tell me about the types of rooms available",
+      "Room options for patients",
+      "Hospital accommodation details",
+      "Types of patient rooms"
+      ],
+      "responses": ["Our hospital offers different types of rooms, including private rooms, semi-private rooms, and wards. The availability may vary. If you have specific preferences or questions, feel free to ask."],
+      "context": [""]
+      },
+      {
+      "tag": "patient_rights",
+      "patterns": [
+      "What are my rights as a patient?",
+      "Patient rights at the hospital",
+      "Understanding my rights as a healthcare consumer",
+      "Know my rights as a patient"
+      ],
+      "responses": ["As a patient, you have certain rights, including the right to informed consent, privacy, and respectful treatment. If you have specific questions about your rights or need further information, feel free to ask."],
+      "context": [""]
+      },
+      {
+      "tag": "hospital_billing",
+      "patterns": [
+      "How does hospital billing work?",
+      "Understanding medical bills",
+      "Information on hospital charges",
+      "Billing and payment details"
+      ],
+      "responses": ["Hospital billing involves charges for medical services, procedures, and accommodations. If you have specific questions about billing or need details about a recent bill, please provide more information."],
+      "context": [""]
+      },
+      {
+      "tag": "hospital_wifi",
+      "patterns": [
+      "Is there Wi-Fi available at the hospital?",
+      "Wi-Fi access for patients",
+      "Connect to hospital Wi-Fi",
+      "Hospital internet facilities"
+      ],
+      "responses": ["Yes, the hospital provides Wi-Fi facilities for patients. If you need assistance with connecting to the Wi-Fi or have other internet-related inquiries, feel free to ask."],
+      "context": [""]
+      },
+      {
+      "tag": "hospital_social_media",
+      "patterns": [
+      "Connect with the hospital on social media",
+      "Hospital social media accounts",
+      "Social media presence",
+      "Find the hospital on social platforms"
+      ],
+      "responses": ["You can connect with us on social media platforms such as Facebook, Twitter, and Instagram. Stay updated on hospital news, events, and health tips by following our official accounts."],
+      "context": [""]
+      },
+      {
+        "tag": "lab_test_information",
+        "patterns": ["Tell me about [specific lab test]", "Lab test details for [patient name]", "How to prepare for a lab test?"],
+        "responses": ["Providing information about the lab test. Please specify the test or patient name."],
+        "context": [""]
+      },
+      {
+        "tag": "radiology_services",
+        "patterns": ["What radiology services are available?", "Tell me about X-ray services", "Radiology procedures at the hospital"],
+        "responses": ["Our hospital offers a range of radiology services, including X-rays, MRIs, and CT scans. If you have specific inquiries, feel free to ask."],
+        "context": [""]
+      },
+      {
+        "tag": "patient_admissions",
+        "patterns": ["How to admit a patient?", "Patient admission process", "Admission requirements"],
+        "responses": ["The patient admission process involves [steps]. If you have a specific admission question, please let me know."],
+        "context": [""]
+      },
+      {
+        "tag": "medical_records",
+        "patterns": ["Access my medical records", "How to request medical records?", "Information on patient records"],
+        "responses": ["Accessing medical records requires [procedure]. If you need assistance, please provide more details."],
+        "context": [""]
+      },
+      {
+        "tag": "hospital_events_and_programs",
+        "patterns": ["Are there any upcoming hospital events?", "Tell me about health programs", "Hospital workshops"],
+        "responses": ["Stay informed about our upcoming events and health programs. Check our website or contact us for details."],
+        "context": [""]
+      },
+      {
+        "tag": "mental_health_services",
+        "patterns": ["Mental health support at the hospital", "Psychiatry services", "Counseling and therapy"],
+        "responses": ["We provide mental health services, including counseling and therapy. If you have specific mental health inquiries, feel free to ask."],
+        "context": [""]
+      },
+      {
+        "tag": "dietary_services",
+        "patterns": ["Tell me about hospital meals", "Dietary restrictions at the hospital", "Nutritional advice"],
+        "responses": ["Our hospital offers nutritious meals. If you have dietary restrictions or need nutritional advice, please let me know."],
+        "context": [""]
+      },
+      {
+        "tag": "surgery_information",
+        "patterns": ["Tell me about upcoming surgeries", "Surgery procedures at the hospital", "How to prepare for surgery?"],
+        "responses": ["Providing information about upcoming surgeries. If you have specific inquiries, please specify."],
+        "context": ["surgery_information"]
+      },
+      {
+        "tag": "rehabilitation_services",
+        "patterns": ["Rehabilitation programs at the hospital", "Physical therapy services", "Recovery programs"],
+        "responses": ["Our hospital offers rehabilitation services, including physical therapy and recovery programs. If you have specific questions, feel free to ask."],
+        "context": ["rehabilitation_services"]
+      },
+      {
+        "tag": "maternity_services",
+        "patterns": ["Maternity ward facilities", "Prenatal care information", "Delivery room services"],
+        "responses": ["Explore our maternity services, including prenatal care and delivery room facilities. If you have specific maternity-related questions, let me know."],
+        "context": ["maternity_services"]
+      },
+      {
+        "tag": "pediatric_care",
+        "patterns": ["Pediatric services at the hospital", "Children's ward facilities", "Pediatrician information"],
+        "responses": ["We provide specialized pediatric care for children. If you have questions about our pediatric services, feel free to ask."],
+        "context": ["pediatric_care"]
+      },
+      {
+        "tag": "pharmacy_services",
+        "patterns": ["Prescription pick-up process", "Pharmacy hours of operation", "Medication availability"],
+        "responses": ["Our pharmacy offers prescription services. If you have questions about medication availability or pick-up, let us know."],
+        "context": ["pharmacy_services"]
+      },
+      {
+        "tag": "health_and_wellness_classes",
+        "patterns": ["Are there health and wellness classes?", "Join wellness programs", "Fitness classes at the hospital"],
+        "responses": ["Stay healthy with our wellness classes and programs. Check our schedule or contact us for details on health and wellness offerings."],
+        "context": ["health_and_wellness_classes"]
+      },
+      {
+        "tag": "volunteer_opportunities",
+        "patterns": ["Can I volunteer at the hospital?", "Information on volunteer programs", "Volunteer opportunities", "Community service opportunities"],
+        "responses": ["We welcome volunteers! If you're interested in contributing your time, please inquire about our volunteer programs."],
+        "context": ["volunteer_opportunities"]
+      },
+      {
+        "tag": "community_outreach",
+        "patterns": ["Hospital community events", "Community outreach programs", "Health education in the community"],
+        "responses": ["Engage with our community events and outreach programs. Stay connected to our health education initiatives."],
+        "context": ["community_outreach"]
+      },
+      {
+        "tag": "hospital_technology",
+        "patterns": ["What technology does the hospital use?", "Digital health services", "Telemedicine options"],
+        "responses": ["Our hospital utilizes cutting-edge technology, including [mention specific technologies]. If you have tech-related inquiries, feel free to ask."],
+        "context": ["hospital_technology"]
+      },
+      {
+        "tag": "special_events_and_celebrations",
+        "patterns": ["Hospital anniversaries", "Special celebrations at the hospital", "Events for patients"],
+        "responses": ["Celebrate special occasions with us! Stay tuned for hospital anniversaries and patient-focused events."],
+        "context": ["special_events_and_celebrations"]
+      },
+      {
+        "tag": "patient_education",
+        "patterns": ["Educational resources for patients", "Where can I find health information?", "Patient education materials"],
+        "responses": ["Access our patient education resources for valuable health information. If you have specific topics in mind, let me know."],
+        "context": ["patient_education"]
+      },
+      {
+        "tag": "support_groups",
+        "patterns": ["Join a support group", "Support groups for patients", "Coping with illness"],
+        "responses": ["We offer support groups for patients facing various challenges. If you're interested in joining a support group, please inquire for details."],
+        "context": ["support_groups"]
+      },
+      {
+        "tag": "cafeteria_and_food_services",
+        "patterns": ["Hospital cafeteria hours", "Food services for patients", "Dietary restrictions"],
+        "responses": ["Explore our cafeteria and food services. If you have dietary restrictions or specific food-related questions, feel free to ask."],
+        "context": ["cafeteria_and_food_services"]
+      },
+      {
+        "tag": "patient_advocacy",
+        "patterns": ["How does patient advocacy work?", "Advocacy services for patients", "Patient rights protection"],
+        "responses": ["Our patient advocacy services aim to protect your rights. If you need assistance or have advocacy-related inquiries, let me know."],
+        "context": ["patient_advocacy"]
+      },
+      {
+        "tag": "interpreter_services",
+        "patterns": ["Interpreter services at the hospital", "Language assistance", "Translation support"],
+        "responses": ["We provide interpreter services to assist with language barriers. If you require language support, please let us know your language preference."],
+        "context": ["interpreter_services"]
+      },
+      {
+        "tag": "financial_assistance",
+        "patterns": ["Financial assistance programs", "Help with medical bills", "Financial aid for patients"],
+        "responses": ["Explore our financial assistance programs. If you have questions about medical bills or need financial aid, we're here to help."],
+        "context": ["financial_assistance"]
+      },
+      {
+        "tag": "telehealth_services",
+        "patterns": ["Can I schedule a telehealth appointment?", "Telehealth services offered", "Remote medical consultations"],
+        "responses": ["Discover our telehealth services for remote medical consultations. If you're interested in scheduling a telehealth appointment, let me know."],
+        "context": ["telehealth_services"]
+      },
+      {
+        "tag": "wellness_checkups",
+        "patterns": ["Schedule a wellness checkup", "Wellness exams for patients", "Preventive healthcare appointments"],
+        "responses": ["Prioritize your health with our wellness checkups. If you'd like to schedule a wellness exam or have questions, feel free to ask."],
+        "context": ["wellness_checkups"]
+      },
+      {
+        "tag": "health_insurance_assistance",
+        "patterns": ["Assistance with health insurance claims", "Insurance-related queries", "Navigating insurance coverage"],
+        "responses": ["We can assist you with health insurance-related inquiries and claims. If you need support with insurance matters, let us know."],
+        "context": ["health_insurance_assistance"]
+    },
+    {
+        "tag": "spiritual_and_chaplain_services",
+        "patterns": ["Chaplain services at the hospital", "Spiritual support for patients", "Religious services"],
+        "responses": ["Our chaplain services provide spiritual support. If you have specific spiritual or religious preferences, feel free to share them."],
+        "context": ["spiritual_and_chaplain_services"]
+    },
+    {
+        "tag": "patient_portal_assistance",
+        "patterns": ["How to use the patient portal?", "Accessing medical records online", "Patient portal support"],
+        "responses": ["Learn about our patient portal for convenient access to medical records. If you have questions about using the portal, we're here to assist."],
+        "context": ["patient_portal_assistance"]
+    },
+    {
+        "tag": "patient_rights_workshop",
+        "patterns": ["Participate in patient rights workshop", "Understanding patient rights", "Workshops for healthcare consumers"],
+        "responses": ["Engage in our patient rights workshop to better understand your rights as a healthcare consumer. If you're interested, inquire for details."],
+        "context": ["patient_rights_workshop"]
+    },
+    {
+        "tag": "hospital_art_and_recreation",
+        "patterns": ["Art programs at the hospital", "Recreational activities for patients", "Hospital art exhibits"],
+        "responses": ["Experience art and recreation at the hospital. If you're interested in art programs or recreational activities, let us know."],
+        "context": ["hospital_art_and_recreation"]
+    },
+    {
+        "tag": "maternity_services",
+        "patterns": ["Maternity care at the hospital", "Prenatal services", "Delivery options"],
+        "responses": ["Explore our comprehensive maternity services. If you have questions about prenatal care, delivery options, or maternity facilities, feel free to ask."],
+        "context": ["maternity_services"]
+    },
+    {
+        "tag": "cancer_support_services",
+        "patterns": ["Support for cancer patients", "Cancer treatment information", "Cancer care resources"],
+        "responses": ["We provide dedicated support for cancer patients. If you're seeking information on cancer treatment or need resources for cancer care, we're here to help."],
+        "context": ["cancer_support_services"]
+    },
+    {
+        "tag": "physical_therapy_services",
+        "patterns": ["Physical therapy options", "Rehabilitation services", "Therapeutic exercises"],
+        "responses": ["Discover our physical therapy services aimed at promoting healing and recovery. If you have questions about rehabilitation or therapeutic exercises, feel free to ask."],
+        "context": ["physical_therapy_services"]
+    },
+    {
+        "tag": "nutrition_and_dietary_advice",
+        "patterns": ["Nutritional advice for patients", "Dietary recommendations", "Healthy eating tips"],
+        "responses": ["Get personalized nutritional advice and dietary recommendations. If you're looking for tips on healthy eating, we're here to guide you."],
+        "context": ["nutrition_and_dietary_advice"]
+    },
+    {
+      "tag": "senior_care_and_geriatrics",
+      "patterns": ["Elderly care services", "Geriatric healthcare", "Senior wellness programs"],
+      "responses": ["Our hospital offers specialized care for seniors. If you have inquiries about elderly care services, geriatric healthcare, or senior wellness programs, feel free to ask."],
+      "context": []
+    },
+    {
+        "tag": "medical_research_participation",
+        "patterns": ["Participate in medical research", "Clinical trials at the hospital", "Contribute to medical studies"],
+        "responses": ["Contribute to medical research by participating in clinical trials and studies. If you're interested in learning more or joining a research initiative, let us know."],
+        "context": []
+    },
+    {
+        "tag": "health_and_wellness_workshops",
+        "patterns": ["Attend health workshops", "Wellness events at the hospital", "Health education programs"],
+        "responses": ["Join our health and wellness workshops to enhance your well-being. If you're interested in attending educational programs or wellness events, inquire for details."],
+        "context": []
+    },
+    {
+        "tag": "rehabilitation_services",
+        "patterns": ["Rehabilitation programs", "Physical therapy services", "Recovery and rehabilitation"],
+        "responses": ["Discover our rehabilitation services to support your recovery journey. If you have questions about physical therapy, rehabilitation programs, or recovery options, feel free to ask."],
+        "context": []
+    },
+    {
+        "tag": "pediatric_care",
+        "patterns": ["Pediatric healthcare services", "Child wellness programs", "Specialized care for children"],
+        "responses": ["We provide comprehensive pediatric healthcare services and specialized care for children. If you have questions about child wellness programs or pediatric healthcare, feel free to ask."],
+        "context": []
+    },
+    {
+        "tag": "mental_health_support",
+        "patterns": ["Mental health services", "Counseling and therapy", "Emotional well-being support"],
+        "responses": ["Our hospital offers mental health services, counseling, and therapy for emotional well-being support. If you're seeking assistance or information, we're here to help."],
+        "context": []
+    },
+    {
+        "tag": "diabetes_management",
+        "patterns": ["Diabetes care and management", "Blood sugar monitoring", "Diabetic patient support"],
+        "responses": ["Explore our diabetes care and management services, including blood sugar monitoring and support for diabetic patients. If you have questions or need assistance, feel free to inquire."],
+        "context": []
+    },
+    {
+        "tag": "home_healthcare_services",
+        "patterns": ["Home healthcare options", "At-home medical support", "Remote patient care"],
+        "responses": ["Discover our home healthcare services, providing at-home medical support and remote patient care. If you're interested in exploring options for home-based healthcare, let us know."],
+        "context": []
+    },
+    {
+      "tag": "dental_services",
+      "patterns": ["Dental care at the hospital", "Oral health services", "Dental checkups"],
+      "responses": ["We provide comprehensive dental services. If you have inquiries about dental care, oral health services, or want to schedule a dental checkup, let us know."],
+      "context": []
+    },
+    {
+        "tag": "smoking_cessation_programs",
+        "patterns": ["Quit smoking programs", "Smoking cessation support", "Tobacco cessation resources"],
+        "responses": ["Join our smoking cessation programs for support in quitting smoking. If you're interested in tobacco cessation resources or need assistance, inquire for details."],
+        "context": []
+    },
+    {
+        "tag": "patient_and_family_counseling",
+        "patterns": ["Counseling services for patients", "Family therapy programs", "Emotional support"],
+        "responses": ["Access our patient and family counseling services for emotional support. If you have questions about counseling programs or need assistance, feel free to ask."],
+        "context": []
+    },
+    {
+        "tag": "technology_assistance",
+        "patterns": ["Help with hospital technology", "Assistance with medical apps", "Technical support"],
+        "responses": ["We offer assistance with hospital technology and medical apps. If you have technical questions or need support, let us know."],
+        "context": []
+    },
+    {
+        "tag": "patient_advocacy_workshops",
+        "patterns": ["Participate in advocacy workshops", "Advocacy training for patients", "Patient rights education"],
+        "responses": ["Engage in our patient advocacy workshops to learn more about your rights. If you're interested in advocacy training or patient rights education, inquire for details."],
+        "context": []
+    },
+    {
+        "tag": "hospital_events_and_seminars",
+        "patterns": ["Upcoming hospital events", "Health seminars and conferences", "Community outreach programs"],
+        "responses": ["Stay informed about our upcoming events, health seminars, and community outreach programs. If you're interested in participating, inquire for details."],
+        "context": []
+    },
+      {
+        "tag": "sleep_disorder_clinic",
+        "patterns": ["Sleep disorder evaluation", "Clinic for sleep-related issues", "Sleep study services"],
+        "responses": ["Visit our sleep disorder clinic for evaluation and support. If you have questions about sleep-related issues or need information on sleep studies, feel free to ask."],
+        "context": ["sleep_disorder_clinic"]
+      },
+      {
+        "tag": "nutrition_and_diet_planning",
+        "patterns": ["Nutritional counseling services", "Diet planning for patients", "Healthy eating programs"],
+        "responses": ["Access our nutritional counseling services and personalized diet planning. If you have specific dietary goals or questions, let us know."],
+        "context": ["nutrition_and_diet_planning"]
+      },
+      {
+        "tag": "community_health_fairs",
+        "patterns": ["Participate in health fairs", "Community wellness events", "Health checkup camps"],
+        "responses": ["Stay involved in our community health fairs and wellness events. If you're interested in participating or need information about health checkup camps, let us know."],
+        "context": ["community_health_fairs"]
+      },
+      {
+        "tag": "alternative_medicine_services",
+        "patterns": ["Explore alternative medicine", "Holistic health services", "Alternative therapies"],
+        "responses": ["Discover our alternative medicine services for holistic health. If you have questions about alternative therapies or holistic health options, feel free to ask."],
+        "context": ["alternative_medicine_services"]
+      },
+      {
+        "tag": "travel_health_information",
+        "patterns": ["Health advice for travelers", "Travel immunizations", "Medical advice for trips"],
+        "responses": ["Get travel health information for a safe journey. If you're planning a trip and need health advice, immunizations, or medical guidance, inquire for details."],
+        "context": ["travel_health_information"]
+      },
+      {
+        "tag": "language_interpretation_services",
+        "patterns": ["Language interpretation assistance", "Translation services for patients", "Multilingual support"],
+        "responses": ["We provide language interpretation services for patients. If you need assistance in a specific language or require translation services, let us know."],
+        "context": ["language_interpretation_services"]
+      },
+      {
+        "tag": "cancer_support_services",
+        "patterns": ["Cancer patient support", "Oncology counseling services", "Support for cancer survivors"],
+        "responses": ["Access our support services for cancer patients. If you're looking for oncology counseling or support for cancer survivors, inquire for details."],
+        "context": ["cancer_support_services"]
+      },
+      {
+        "tag": "palliative_care_services",
+        "patterns": ["Palliative care information", "Support for serious illnesses", "End-of-life care services"],
+        "responses": ["Learn about our palliative care services for support with serious illnesses. If you have questions about end-of-life care or palliative care information, inquire for details."],
+        "context": ["palliative_care_services"]
+      },
+      {
+        "tag": "art_and_music_therapy",
+        "patterns": ["Art therapy programs", "Music therapy for patients", "Creative expression sessions"],
+        "responses": ["Engage in our art and music therapy programs for creative expression. If you're interested in art therapy sessions or music therapy for patients, let us know."],
+        "context": ["art_and_music_therapy"]
+      },
+      {
+        "tag": "hospital_safety_information",
+        "patterns": ["Hospital safety guidelines", "Emergency evacuation procedures", "Patient and visitor safety tips"],
+        "responses": ["Stay informed about our hospital safety guidelines. If you have questions about emergency evacuation procedures or need safety tips for patients and visitors, inquire for details."],
+        "context": ["hospital_safety_information"]
+      },
+      {
+        "tag": "fitness_and_exercise_programs",
+        "patterns": ["Fitness classes at the hospital", "Exercise programs for patients", "Wellness workouts"],
+        "responses": ["Participate in our fitness and exercise programs. If you're interested in fitness classes, exercise programs, or wellness workouts, inquire for details."],
+        "context": ["fitness_and_exercise_programs"]
+      },
+      {
+        "tag": "medical_equipment_loan_program",
+        "patterns": ["Loan program for medical equipment", "Borrow medical devices", "Assistive technology services"],
+        "responses": ["Explore our medical equipment loan program. If you need to borrow medical devices or inquire about assistive technology services, let us know."],
+        "context": ["medical_equipment_loan_program"]
+      },
+      {
+        "tag": "disease_prevention_workshops",
+        "patterns": ["Participate in disease prevention workshops", "Health education for prevention", "Preventive care programs"],
+        "responses": ["Join our disease prevention workshops for health education. If you're interested in preventive care programs or learning about disease prevention, inquire for details."],
+        "context": ["disease_prevention_workshops"]
+      },
+      {
+        "tag": "environmental_health_information",
+        "patterns": ["Environmental health tips", "Hospital sustainability initiatives", "Green healthcare practices"],
+        "responses": ["Stay informed about environmental health tips and our hospital's sustainability initiatives. If you have questions about green healthcare practices, inquire for details."],
+        "context": ["environmental_health_information"]
+      },
+      {
+        "tag": "telemedicine_services",
+        "patterns": ["Access telemedicine services", "Virtual healthcare consultations", "Remote medical appointments"],
+        "responses": ["Explore our telemedicine services for virtual healthcare consultations. If you're interested in remote medical appointments or accessing healthcare through telemedicine, let us know."],
+        "context": ["telemedicine_services"]
+      },
+      {
+        "tag": "understanding_mental_illness",
+        "patterns": ["What is mental illness?","How prevalent is mental illness?","What are the symptoms of mental health disorders?","How is mental illness diagnosed?","Are there different types of mental illnesses?"],
+        "responses": [
+            "Mental illness disrupts thoughts, emotions, and daily functioning.",
+            "It affects 1 in 5 adults and varies in severity.",
+            "Symptoms include confused thinking, mood swings, social withdrawal, and more.",
+            "Diagnosis involves assessing symptoms and their impact.",
+            "Yes, there are various types of mental illnesses with different characteristics."
+        ],
+        "context": [""]
+    },
+    {
+        "tag": "prevalence_of_mental_illness",
+        "patterns": [
+            "How common is mental illness?",
+            "Does mental illness affect all age groups?",
+            "Are certain mental illnesses more prevalent in specific populations?"
+        ],
+        "responses": [
+            "Mental illness is estimated to affect 1 in 5 adults in America.",
+            "It can affect anyone, regardless of age, gender, or background.",
+            "Certain conditions may be more common in specific populations."
+        ],
+        "context": [""]
+    },
+    {
+        "tag": "symptoms_of_mental_health_disorders",
+        "patterns": [
+            "What are the general symptoms of mental health disorders?",
+            "How do symptoms vary in adults, older children, and younger children?"
+        ],
+        "responses": [
+            "Symptoms include confused thinking, extreme mood swings, social withdrawal, and more.",
+            "Symptoms may vary in different age groups, such as changes in school performance in children."
+        ],
+        "context": [""]
+    },
+    {
+        "tag": "treatment_and_recovery",
+        "patterns": [
+            "What is the treatment for mental illness?",
+            "Can people with mental illness recover?",
+            "How effective is the treatment?"
+        ],
+        "responses": [
+            "Treatment involves medication, therapy, or a combination.",
+            "Recovery is possible with proactive engagement in the treatment process.",
+            "Treatment is highly effective, with 70-90% experiencing a reduction in symptoms."
+        ],
+        "context": [""]
+    },
+    {
+        "tag": "finding_right_professional",
+        "patterns": [
+            "How can I find the right mental health professional?",
+            "What factors should I consider when choosing a professional?"
+        ],
+        "responses": [
+            "Finding the right professional requires research and considering your needs.",
+            "Consider factors like expertise, approach, and comfort level when choosing a professional."
+        ],
+        "context": [""]
+    },
+    {
+        "tag": "medication_and_treatment_plans",
+        "patterns": [
+            "What should I know about medication?",
+            "Can I stop taking medication if I feel better?",
+            "How is medication monitored?"
+        ],
+        "responses": [
+            "Understand the purpose, side effects, and benefits before starting medication.",
+            "Consult your doctor before making decisions about stopping medication.",
+            "Medication is monitored, and adjustments are made based on symptoms and response."
+        ],
+        "context": [""]
+    },
+    {
+        "tag": "types_of_therapy",
+        "patterns": [
+            "What are the types of therapy?",
+            "How do different types of therapy work?"
+        ],
+        "responses": [
+            "Therapy options vary and include counseling, psychotherapy, and more.",
+            "Different therapies address mental health issues through diverse approaches."
+        ],
+        "context": [""]
+    },
+    {
+      "tag": "finding_health_professionals",
+      "patterns": [
+          "How can I find a doctor, psychiatrist, psychologist, or counsellor?",
+          "How can I see a psychiatrist?",
+          "How can I see a psychologist?",
+          "How can I see a counsellor?"
+      ],
+      "responses": [
+          "Search online directories, ask for referrals, or contact your local health authority.",
+          "Consult your primary care doctor for a referral or check with your insurance provider.",
+          "Ask for referrals from your doctor, check online directories, or contact your local psychological association.",
+          "Explore online directories, ask for recommendations, or contact your local counseling centers."
+      ],
+      "context": [""]
+  },
+  {
+      "tag": "finding_support_services",
+      "patterns": [
+          "How can I find a support group?",
+          "Where can I find child and youth mental health services?",
+          "Where can older adults find help for mental health concerns?"
+      ],
+      "responses": [
+          "Search online for local support groups, inquire at mental health centers, or ask your healthcare provider.",
+          "Contact your child's school, local mental health services, or your healthcare provider for youth mental health services.",
+          "Explore resources like senior centers, healthcare providers, or mental health organizations for assistance."
+      ],
+      "context": [""]
+  },
+  {
+      "tag": "finding_self_help",
+      "patterns": [
+          "Where can I find self-help materials for depression?",
+          "Where can I find self-help materials for anxiety?"
+      ],
+      "responses": [
+          "Explore reputable websites, books, or online platforms dedicated to mental health and depression self-help materials.",
+          "Look for reliable sources online, consider therapy apps, or explore self-help books for anxiety."
+      ],
+      "context": [""]
+  },
+  {
+      "tag": "coping_with_physical_health",
+      "patterns": [
+          "I’m having a hard time coping with a physical health problem. Where can I find help?"
+      ],
+      "responses": [
+          "Reach out to your primary care doctor, inquire at local hospitals, or explore support groups for individuals facing similar challenges."
+      ],
+      "context": [""]
+  },
+  {
+      "tag": "substance_use_and_addiction",
+      "patterns": [
+          "When is substance use a problem? Where can I go for help?",
+          "How can I find help for an alcohol or drug use problem?",
+          "How do I know if I'm drinking too much?"
+      ],
+      "responses": [
+          "Substance use becomes a problem when it interferes with daily life. Seek help from addiction specialists or local treatment centers.",
+          "Contact addiction treatment centers, attend support groups, or consult with healthcare providers for help.",
+          "Assess your drinking habits, consult healthcare providers, or explore local support groups for guidance."
+      ],
+      "context": [""]
+  },
+  {
+      "tag": "financial_assistance_and_resources",
+      "patterns": [
+          "Can I get help paying for prescription medications?",
+          "How can I pay for mental health care?",
+          "How do I apply for income assistance?"
+      ],
+      "responses": [
+          "Explore prescription assistance programs, drug discount cards, or inquire about financial aid from pharmaceutical companies.",
+          "Consider insurance coverage, explore sliding scale fees, or inquire about financial assistance programs from mental health providers.",
+          "Contact your local government office, explore online resources, or visit the official website for income assistance applications."
+      ],
+      "context": [""]
+  },
+  {
+      "tag": "mental_health_terminology",
+      "patterns": [
+          "What is MSP?",
+          "What is a referral?"
+      ],
+      "responses": [
+          "MSP (Medical Services Plan) is British Columbia's public health insurance plan.",
+          "A referral is a recommendation from a healthcare provider to see a specialist or receive specific services."
+      ],
+      "context": [""]
+  },
+  {
+      "tag": "professional_differences",
+      "patterns": [
+          "What's the difference between a psychiatrist and a registered psychologist?",
+          "What's the difference between psychotherapy and counselling?",
+          "What's the difference between CBT and DBT?",
+          "What's the difference between antidepressants?"
+      ],
+      "responses": [
+          "Psychiatrists are medical doctors specializing in mental health; psychologists are trained in psychology. Psychiatrists can prescribe medication; psychologists provide therapy.",
+          "Psychotherapy involves talk therapy to address mental health issues; counseling is a broader term encompassing various types of guidance and support.",
+          "CBT (Cognitive-Behavioral Therapy) focuses on changing thought patterns and behaviors; DBT (Dialectical Behavior Therapy) emphasizes acceptance and change.",
+          "Antidepressants are medications that help manage symptoms of depression by affecting neurotransmitters in the brain."
+      ],
+      "context": [""]
+  },
+  {
+      "tag": "mental_health_conditions",
+      "patterns": [
+          "I received a diagnosis but I don’t think it’s right. What can I do?",
+          "I was prescribed an antidepressant or other psychiatric medication but I don’t think it’s working. What can I do?"
+      ],
+      "responses": [
+          "Seek a second opinion from another healthcare professional or specialist for a comprehensive evaluation.",
+          "Communicate openly with your prescribing doctor, consider dosage adjustments or alternative medications, and attend regular follow-ups for monitoring."
+      ],
+      "context": [""]
+  },
+  {
+      "tag": "concerns_for_others",
+      "patterns": [
+          "An adult in my life seems ill and won’t find help. What can I do?",
+          "I’m worried about my child or teenager. Where can I find help?",
+          "Someone I care about has a brain injury. Where can I find more information?",
+          "Someone I love has been diagnosed with depression. How can I help?",
+          "Someone I love has been diagnosed with schizophrenia. How can I help?",
+          "I’m a young person, and one of my parents has a mental illness. What can I do?"
+      ],
+      "responses": [
+          "Express concern and encourage seeking professional help, offer support, and provide resources on available assistance.",
+          "Contact your child's school, local mental health services, or pediatricians for guidance and support resources.",
+          "Explore reputable websites, contact healthcare providers, or consult with specialists for information on brain injuries.",
+          "Offer support, encourage seeking professional help, and educate yourself about depression to provide informed assistance.",
+          "Learn about schizophrenia, offer emotional support, and encourage adherence to treatment plans. Consult mental health professionals for guidance.",
+          "Seek support from school counselors, trusted adults, or mental health organizations. Educate yourself and explore available resources for coping."
+      ],
+      "context": [""]
+  },
+  {
+    "tag": "suicide_prevention",
+    "patterns": [
+        "What are some warning signs of suicidal thoughts?",
+        "How can I approach someone I suspect is struggling with suicidal thoughts?",
+        "Tell me about resources for suicide prevention and mental health support."
+    ],
+    "responses": [
+        "Warning signs of suicidal thoughts include withdrawal, talking about death, and sudden mood changes. Approach the person with empathy and encourage professional help.",
+        "Approaching someone struggling with suicidal thoughts involves expressing concern, listening non-judgmentally, and helping them connect with mental health professionals.",
+        "Resources for suicide prevention and mental health support include crisis helplines, local mental health services, and online counseling platforms."
+    ],
+    "context": [""]
+},
+{
+    "tag": "cannabis_information",
+    "patterns": [
+        "What are the potential health risks of cannabis use?",
+        "Is cannabis addiction a real concern?",
+        "Tell me about the legal implications of cannabis use in different regions."
+    ],
+    "responses": [
+        "Potential health risks of cannabis use include impaired memory, mental health issues, and addiction. Consult healthcare professionals for personalized information.",
+        "Cannabis addiction is a real concern and may lead to dependence. Seeking professional help is crucial for individuals struggling with addiction.",
+        "Legal implications of cannabis use vary by region. Stay informed about local laws and regulations to ensure responsible and legal consumption."
+    ],
+    "context": [""]
+},
+{
+    "tag": "mental_health_vs_illness",
+    "patterns": [
+        "Can mental health issues be prevented?",
+        "How can I promote positive mental health in my daily life?",
+        "Tell me about the stigma surrounding mental illness and ways to combat it."
+    ],
+    "responses": [
+        "Preventing mental health issues involves early intervention, stress management, and building a supportive environment. Seek professional guidance for personalized strategies.",
+        "Promoting positive mental health includes self-care, healthy relationships, and seeking help when needed. Incorporate activities that bring joy and relaxation into your routine.",
+        "Stigma surrounding mental illness can be combated through education, open conversations, and challenging stereotypes. Support mental health awareness initiatives to reduce stigma."
+    ],
+    "context": [""]
+},
+  {
+    "tag": "depression_information",
+    "patterns": [
+        "How can I support someone with depression?",
+        "What are the treatment options for clinical depression?",
+        "Tell me about the role of therapy in managing depression."
+    ],
+    "responses": [
+        "Supporting someone with depression involves active listening, offering empathy, and encouraging professional help.",
+        "Treatment options for clinical depression may include psychotherapy, medication, and lifestyle changes.",
+        "Therapy, such as cognitive-behavioral therapy (CBT), plays a crucial role in managing and alleviating symptoms of depression."
+    ],
+    "context": [""]
+},
+{
+    "tag": "anxiety_vs_disorder",
+    "patterns": [
+        "Can anxiety symptoms be managed without medication?",
+        "What are common triggers for anxiety disorders?",
+        "Tell me about coping strategies for anxiety."
+    ],
+    "responses": [
+        "Anxiety symptoms can be managed through therapy, lifestyle changes, and stress-reducing techniques without medication.",
+        "Common triggers for anxiety disorders include stress, trauma, and genetic factors.",
+        "Coping strategies for anxiety may involve deep breathing, mindfulness, and creating a support network."
+    ],
+    "context": [""]
+},
+{
+    "tag": "stress_vs_anxiety",
+    "patterns": [
+        "How can I distinguish between normal stress and problematic anxiety?",
+        "Are there relaxation techniques for managing stress and anxiety?",
+        "Tell me about the impact of chronic stress on mental health."
+    ],
+    "responses": [
+        "Distinguishing between normal stress and problematic anxiety involves assessing the intensity and impact on daily functioning.",
+        "Relaxation techniques for managing stress and anxiety include deep breathing, meditation, and progressive muscle relaxation.",
+        "Chronic stress can contribute to mental health issues such as anxiety disorders and depression. Managing stress is essential for overall well-being."
+    ],
+    "context": [""]
+},
+{
+    "tag": "sadness_vs_depression",
+    "patterns": [
+        "How long does typical sadness last?",
+        "What are the common signs of clinical depression?",
+        "Tell me about self-help strategies for managing mild depressive symptoms."
+    ],
+    "responses": [
+        "Typical sadness is transient and often related to a specific event, lasting a few days to a couple of weeks.",
+        "Common signs of clinical depression include persistent sadness, changes in appetite, and loss of interest in activities.",
+        "Self-help strategies for managing mild depressive symptoms may include regular exercise, maintaining a routine, and seeking social support."
+    ],
+    "context": [""]
+},
+  {
+    "tag": "dysthymia_and_cyclothymic_disorders",
+    "patterns": [
+        "What are the symptoms of dysthymia?",
+        "Can cyclothymic disorder be managed with therapy alone?",
+        "Tell me more about persistent depressive disorder."
+    ],
+    "responses": [
+        "Dysthymia symptoms include low energy, poor concentration, and feelings of hopelessness.",
+        "While therapy can be beneficial, medication may also be considered for managing cyclothymic disorder.",
+        "Persistent depressive disorder, or dysthymia, is characterized by a consistently low mood lasting for at least two years."
+    ],
+    "context": [""]
+},
+{
+    "tag": "rapid_cycling_and_prodrome",
+    "patterns": [
+        "How is rapid cycling in bipolar disorder treated?",
+        "Are there warning signs of a prodrome for mental health episodes?",
+        "Tell me more about mood stabilizers for rapid cycling."
+    ],
+    "responses": [
+        "Treatment for rapid cycling may involve mood stabilizers, antipsychotics, and psychotherapy.",
+        "The prodrome phase may include changes in sleep patterns, mood, or energy levels before a mental health episode.",
+        "Mood stabilizers like lithium or valproate are commonly used to manage rapid cycling in bipolar disorder."
+    ],
+    "context": [""]
+  },
+  {
+      "tag": "adhd_concerns",
+      "patterns": [
+          "What are common signs of ADHD in adults?",
+          "Can ADHD be managed without medication?",
+          "Tell me about ADHD assessment and diagnosis."
+      ],
+      "responses": [
+          "Common signs of adult ADHD include forgetfulness, impulsivity, and difficulty focusing.",
+          "ADHD management may involve behavioral therapy, lifestyle changes, and organizational strategies.",
+          "An ADHD assessment involves a comprehensive evaluation of symptoms, history, and functional impairments to make an accurate diagnosis."
+      ],
+      "context": [""]
+  },
+  {
+      "tag": "substance_use_vs_addiction",
+      "patterns": [
+          "How can I differentiate between casual substance use and addiction?",
+          "What are the long-term effects of substance addiction?",
+          "Tell me about interventions for substance abuse."
+      ],
+      "responses": [
+          "The line between substance use and addiction is crossed when use leads to negative consequences and loss of control.",
+          "Long-term effects of substance addiction can include physical health decline, legal issues, and strained relationships.",
+          "Interventions for substance abuse may include counseling, detoxification, and participation in support groups."
+      ],
+      "context": [""]
+  },
+  {
+      "tag": "alcohol_and_drug_use_help",
+      "patterns": [
+          "Where can I find local support groups for alcohol addiction?",
+          "What are the treatment options for drug use problems?",
+          "Tell me about the importance of seeking professional help for addiction."
+      ],
+      "responses": [
+          "Local support groups like Alcoholics Anonymous can provide valuable assistance for those struggling with alcohol addiction.",
+          "Treatment options for drug use problems may include inpatient rehabilitation, outpatient programs, and counseling.",
+          "Seeking professional help for addiction is crucial for obtaining personalized treatment, addressing underlying issues, and achieving lasting recovery."
+      ],
+      "context": [""]
+  },
+  {
+      "tag": "underage_drug_use_concerns",
+      "patterns": [
+          "How can I educate my children about the risks of drug use?",
+          "Are there community programs to prevent underage drug use?",
+          "Tell me about the impact of parental involvement on preventing drug use in teens."
+      ],
+      "responses": [
+          "Open and honest communication, providing accurate information, and fostering a supportive environment can help educate children about the risks of drug use.",
+          "Community programs, school initiatives, and parental involvement can contribute to preventing underage drug use.",
+          "Parental involvement, including setting clear expectations and being actively engaged, plays a significant role in preventing drug use in teens."
+      ],
+      "context": [""]
+  }
+    ]
+  }

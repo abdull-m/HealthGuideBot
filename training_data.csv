@@ -1,0 +1,676 @@
+tag,pattern
+greeting,Hi there
+greeting,How are you
+greeting,Is anyone there?
+greeting,Hey
+greeting,Hola
+greeting,Hello
+greeting,Good day
+greeting,Greetings
+greeting,What's up?
+greeting,"Hey, how's it going?"
+greeting,Salutations
+greeting,Anybody home?
+greeting,Top of the morning to you
+greeting,Yo!
+greeting,"Hi, what's happening?"
+goodbye,Bye
+goodbye,See you later
+goodbye,Goodbye
+goodbye,"Nice chatting to you, bye"
+goodbye,Till next time
+goodbye,Farewell
+goodbye,Take care
+goodbye,Until we meet again
+goodbye,Adios
+goodbye,So long
+goodbye,Catch you later
+goodbye,It's been a pleasure
+goodbye,Time to go
+goodbye,I'm off
+goodbye,Goodnight
+goodbye,See you around
+goodbye,Toodles
+goodbye,Ciao
+goodbye,Hasta luego
+goodbye,Peace out
+thanks,Thanks
+thanks,Thank you
+thanks,That's helpful
+thanks,"Awesome, thanks"
+thanks,Thanks for helping me
+thanks,Appreciate it
+thanks,You're a lifesaver
+thanks,Grateful for your assistance
+thanks,Big thank you
+thanks,Many thanks
+thanks,Thanks a bunch
+thanks,You've been very helpful
+thanks,I'm thankful for your support
+thanks,Much obliged
+thanks,Thank you so much
+thanks,I owe you one
+thanks,You rock
+thanks,You're the best
+thanks,I appreciate your help
+thanks,Thanks a million
+options,How can you help me?
+options,What services do you offer?
+options,What support is available?
+options,How can you assist me?
+options,Tell me about your capabilities
+adverse_drug,How to check adverse drug reactions?
+adverse_drug,Open adverse drugs module
+adverse_drug,List drugs causing adverse behavior
+adverse_drug,Drugs suitable for patients with adverse reactions
+adverse_drug,Which drugs don't have adverse reactions?
+adverse_drug,Tell me about drug side effects
+adverse_drug,How to manage adverse reactions?
+adverse_drug,Adverse drug information
+adverse_drug,Explore adverse effects of medications
+adverse_drug,What are the common adverse effects?
+adverse_drug,Adverse reactions by drug class
+adverse_drug,Any tips for minimizing adverse drug effects?
+adverse_drug,Can you provide a list of recent adverse reactions?
+adverse_drug,Tell me more about drug safety
+adverse_drug,Guidelines for handling adverse drug events
+adverse_drug,Any recent updates on adverse drug studies?
+adverse_drug,What's the latest information on medication safety?
+blood_pressure,Open blood pressure module
+blood_pressure,Tasks related to blood pressure
+blood_pressure,Blood pressure data entry
+blood_pressure,Log blood pressure results
+blood_pressure,Blood pressure data management
+blood_pressure,How to record blood pressure?
+blood_pressure,Access blood pressure features
+blood_pressure,Tell me about blood pressure tracking
+blood_pressure,Blood pressure module functionalities
+blood_pressure,What are the key features of the blood pressure module?
+blood_pressure,Can you guide me on entering blood pressure data?
+blood_pressure,Any tips for accurate blood pressure recording?
+blood_pressure,Tell me about trends in blood pressure management
+blood_pressure,How often should I log blood pressure?
+blood_pressure,What's the recommended frequency for blood pressure checks?
+blood_pressure,Any reminders for blood pressure monitoring?
+blood_pressure,Can you provide insights on interpreting blood pressure results?
+blood_pressure,Tell me more about the importance of blood pressure monitoring
+blood_pressure_search,Search for blood pressure result history
+blood_pressure_search,Blood pressure for a patient
+blood_pressure_search,Load patient blood pressure result
+blood_pressure_search,Show blood pressure results for a patient
+blood_pressure_search,Find blood pressure results by ID
+blood_pressure_search,Retrieve blood pressure data
+blood_pressure_search,Patient-specific blood pressure results
+blood_pressure_search,Access individual blood pressure records
+blood_pressure_search,Can you pull up my recent blood pressure readings?
+blood_pressure_search,Retrieve blood pressure data for a specific date
+blood_pressure_search,Search for historical blood pressure results
+blood_pressure_search,Find blood pressure records by patient name
+blood_pressure_search,Can you show me trends in my blood pressure data?
+blood_pressure_search,Retrieve comprehensive blood pressure report
+blood_pressure_search,Show me average blood pressure over the last month
+blood_pressure_search,Access detailed blood pressure information for a patient
+blood_pressure_search,Search for blood pressure trends by patient ID
+provide_patient_id,My Patient ID is [Patient_ID]
+provide_patient_id,The Patient ID is [Patient_ID]
+pharmacy_search,Find me a pharmacy
+pharmacy_search,Find pharmacy
+pharmacy_search,List of pharmacies nearby
+pharmacy_search,Locate pharmacy
+pharmacy_search,Search pharmacy
+hospital_search,Lookup for a hospital
+hospital_search,Searching for a hospital to transfer a patient
+hospital_search,I want to search hospital data
+hospital_search,Hospital lookup for a patient
+hospital_search,Looking up hospital details
+hospital_search,Find hospitals nearby
+hospital_search,Search hospitals in my area
+hospital_search,Hospitals around me
+hospital_search,Find nearby medical centers
+search_hospital_by_params,What type of hospital are you looking for?
+search_hospital_by_params,Tell me the hospital type
+search_hospital_by_params,Search based on hospital type
+search_hospital_by_params,Specify the hospital type
+search_hospital_by_params,Looking for a specific type of hospital
+search_hospital_by_type,General hospital
+search_hospital_by_type,Specialty hospital
+search_hospital_by_type,Children's hospital
+search_hospital_by_type,Maternity hospital
+search_hospital_by_type,Cancer center
+search_hospital_by_type,Cardiac hospital
+search_hospital_by_type,Psychiatric hospital
+search_hospital_by_type,Emergency clinic
+search_hospital_by_type,Urgent care center
+search_hospital_by_type,Orthopedic hospital
+search_hospital_by_type,Neurological hospital
+search_hospital_by_type,Dental clinic
+search_hospital_by_type,Gastroenterology center
+search_hospital_by_type,Rehabilitation hospital
+search_hospital_by_type,ENT clinic
+search_hospital_by_type,Ophthalmology hospital
+search_hospital_by_type,Dermatology clinic
+search_hospital_by_type,Women's health center
+search_hospital_by_type,Geriatric hospital
+search_hospital_by_type,Internal medicine clinic
+search_hospital_by_type,Allergy and Immunology center
+search_hospital_by_type,Physical therapy clinic
+search_hospital_by_type,Pulmonology hospital
+search_hospital_by_type,Endocrinology clinic
+search_hospital_by_type,Nephrology hospital
+search_hospital_by_type,Rheumatology clinic
+search_hospital_by_type,Oncology hospital
+search_hospital_by_type,Orthodontic clinic
+search_hospital_by_type,Pediatric hospital
+search_hospital_by_type,Podiatry clinic
+search_hospital_by_type,Urology hospital
+search_hospital_by_type,Plastic surgery clinic
+search_hospital_by_type,Vascular surgery hospital
+search_hospital_by_type,Pain management clinic
+search_hospital_by_type,Podiatric hospital
+search_hospital_by_type,Gynecology clinic
+search_hospital_by_type,Infectious Disease hospital
+search_hospital_by_type,Dental surgery clinic
+search_hospital_by_type,Hematology hospital
+search_hospital_by_type,Otolaryngology clinic
+search_hospital_by_type,Family medicine hospital
+search_hospital_by_type,Gynecological surgery clinic
+search_hospital_by_type,Sleep medicine hospital
+schedule_hospital_appointment,I prefer a morning appointment
+schedule_hospital_appointment,Can I get an afternoon slot?
+schedule_hospital_appointment,Evening appointment suits me
+schedule_hospital_appointment,Any available time on the weekend?
+schedule_hospital_appointment,I need a specific time on [day]
+schedule_hospital_appointment,Flexible with the appointment time
+schedule_hospital_appointment,I want to schedule a check-up
+schedule_hospital_appointment,Book an appointment for a medical consultation
+schedule_hospital_appointment,Are there any evening slots for appointments?
+schedule_hospital_appointment,Can I schedule a follow-up appointment?
+schedule_hospital_appointment,Looking for available time slots this week
+schedule_hospital_appointment,Book an appointment for a routine health check
+schedule_hospital_appointment,Are there any morning slots available?
+schedule_hospital_appointment,Can I schedule an appointment for a specialist?
+schedule_hospital_appointment,I need to see a doctor. What's the earliest appointment?
+schedule_hospital_appointment,Book an appointment for a second opinion
+schedule_hospital_appointment,Any open slots for a vaccination appointment?
+schedule_hospital_appointment,Can I schedule an appointment for a blood test?
+schedule_hospital_appointment,I'm looking to schedule a surgical consultation
+schedule_hospital_appointment,Any available time for a telehealth appointment?
+schedule_hospital_appointment,Can I book an appointment for a physical therapy session?
+schedule_hospital_appointment,I want to schedule an appointment for an X-ray
+schedule_hospital_appointment,Any afternoon slots for dental appointments?
+schedule_hospital_appointment,I need an appointment for a mental health consultation
+schedule_hospital_appointment,Can I schedule an appointment for an ultrasound?
+schedule_hospital_appointment,I want to book an appointment for an eye examination
+schedule_hospital_appointment,Any weekend slots for medical imaging appointments?
+schedule_hospital_appointment,I'm looking to schedule an appointment for a chiropractic session
+schedule_hospital_appointment,Can I book an appointment for a nutrition consultation?
+schedule_hospital_appointment,I need an appointment for a hearing test
+schedule_hospital_appointment,Any available time slots for a diabetes consultation?
+schedule_hospital_appointment,Can I schedule an appointment for a skin care consultation?
+schedule_hospital_appointment,I want to book an appointment for a physical examination
+schedule_hospital_appointment,Any open slots for a gynecological consultation?
+schedule_hospital_appointment,I'm looking to schedule an appointment for a cardiology consultation
+schedule_hospital_appointment,Can I book an appointment for a respiratory test?
+schedule_hospital_appointment,I need an appointment for a gastroenterology consultation
+schedule_hospital_appointment,Any available time for a sleep study appointment?
+schedule_hospital_appointment,Can I schedule an appointment for a dental cleaning?
+schedule_hospital_appointment,I want to book an appointment for a vaccination shot
+schedule_hospital_appointment,Any weekend slots for a radiology appointment?
+schedule_hospital_appointment,I'm looking to schedule an appointment for a nephrology consultation
+schedule_hospital_appointment,Can I book an appointment for a podiatry session?
+schedule_hospital_appointment,I need an appointment for a pain management consultation
+schedule_hospital_appointment,Any open slots for a urology consultation?
+hospital_services,Tell me about the services at the hospital
+hospital_services,What medical services do you offer?
+hospital_services,Services provided by the hospital
+hospital_services,List of healthcare services
+hospital_services,Details about hospital facilities
+hospital_services,Can you share information about your specialized services?
+hospital_services,Tell me about the medical treatments available
+hospital_services,What kind of surgeries are performed at the hospital?
+hospital_services,Inform me about the healthcare options you provide
+hospital_services,Share details about the hospital's diagnostic services
+hospital_services,What are the emergency medical services available?
+hospital_services,List the specialties covered by your hospital
+hospital_services,Can you provide information about the maternity services?
+hospital_services,Tell me about the outpatient services offered
+hospital_services,What types of therapy services are available?
+hospital_services,Give details about the surgical facilities at the hospital
+hospital_services,Describe the pediatric services provided
+hospital_services,What preventive care services do you offer?
+hospital_services,Tell me about the laboratory and testing services
+hospital_services,Inform me about the mental health services available
+hospital_services,Share details about the dental services offered
+hospital_services,What advanced medical technologies do you use?
+hospital_services,Can you provide information about the cardiology services?
+hospital_services,Tell me about the radiology and imaging services
+hospital_services,What rehabilitation services are available?
+hospital_services,Describe the urology and nephrology services
+hospital_services,Give details about the oncology services provided
+hospital_services,What kind of patient education programs do you have?
+hospital_services,Tell me about the nutrition and dietary services
+hospital_services,Share information about the geriatric care services
+hospital_services,What are the orthopedic services offered?
+hospital_services,Inform me about the infectious disease care services
+hospital_services,Describe the palliative care services provided
+hospital_services,What specialized departments do you have?
+hospital_services,Tell me about the women's health services
+hospital_services,What are the allergy and immunology services available?
+hospital_services,Share details about the pain management services
+hospital_services,Inform me about the podiatry services provided
+hospital_services,What services do you offer for chronic diseases?
+hospital_services,Tell me about the plastic and reconstructive surgery services
+hospital_services,Describe the vascular surgery and services
+hospital_services,What kind of telehealth services do you provide?
+hospital_services,Inform me about the sleep medicine services offered
+hospital_services,Share details about the infectious disease care services
+hospital_services,What dermatology services are available?
+hospital_services,Tell me about the gastroenterology services
+hospital_services,What services are available for endocrinology?
+hospital_services,Inform me about the pulmonology services provided
+hospital_services,Describe the rheumatology services offered
+hospital_services,What neurology services do you provide?
+hospital_services,Tell me about the ophthalmology services
+hospital_services,What kind of dental surgery services are available?
+hospital_doctors,Find a doctor at the hospital
+hospital_doctors,List of doctors available
+hospital_doctors,Search for a specific doctor
+hospital_doctors,Doctor specialties at the hospital
+hospital_doctors,Which doctors are on duty?
+hospital_doctors,I need information about hospital physicians
+search_hospital_doctors,Looking for [doctor name]
+search_hospital_doctors,Doctors specializing in [specialty]
+search_hospital_doctors,Search for [doctor name]'s availability
+search_hospital_doctors,Available physicians for [specialty]
+search_hospital_doctors,Find [doctor name] in the directory
+search_hospital_doctors,Specific doctor's schedule
+hospital_location,Where is the hospital located?
+hospital_location,Hospital address
+hospital_location,Tell me about the hospital's location
+hospital_location,Directions to the hospital
+hospital_location,Locate the hospital
+hospital_location,Address of the medical center
+hospital_insurance,Does the hospital accept insurance?
+hospital_insurance,Insurance information for patients
+hospital_insurance,Which insurance plans are accepted?
+hospital_insurance,Billing and insurance details
+hospital_insurance,Can I use my insurance at the hospital?
+hospital_insurance,Policy coverage at the medical center
+hospital_emergencies,What should I do in case of an emergency?
+hospital_emergencies,Emergency procedures at the hospital
+hospital_emergencies,Hospital emergency response
+hospital_emergencies,Steps during a medical emergency
+hospital_emergencies,Contact for emergencies
+hospital_emergencies,Emergency room information
+hospital_departments,List of hospital departments
+hospital_departments,What departments are there in the hospital?
+hospital_departments,Tell me about the different hospital units
+hospital_departments,Departments at the medical center
+hospital_departments,Specialized units in the hospital
+hospital_departments,Information on healthcare departments
+hospital_parking,Is there parking available at the hospital?
+hospital_parking,Parking facilities at the medical center
+hospital_parking,Information on hospital parking
+hospital_parking,Parking spaces for patients
+hospital_parking,Where can I park at the hospital?
+hospital_parking,Parking rates and availability
+hospital_visiting_hours,What are the visiting hours at the hospital?
+hospital_visiting_hours,Visitation timings for patients
+hospital_visiting_hours,Hospital visiting schedule
+hospital_visiting_hours,When can I visit a patient?
+hospital_visiting_hours,Information on visiting hours
+hospital_visiting_hours,Allowed hours for visitors
+hospital_feedback,How can I provide feedback about the hospital?
+hospital_feedback,Submit feedback for the medical center
+hospital_feedback,Hospital review and feedback
+hospital_feedback,Share my experience at the hospital
+hospital_feedback,Feedback and suggestions for improvement
+hospital_feedback,Patient satisfaction survey
+appointment_modification,Can I reschedule my appointment?
+appointment_modification,Change my hospital appointment time
+appointment_modification,I need to cancel my scheduled appointment
+medication_information,Tell me about [specific drug] side effects
+medication_information,Medication details for [patient name]
+medication_information,How to manage medication side effects?
+health_condition_queries,Information about diabetes
+health_condition_queries,Tell me more about heart conditions
+health_condition_queries,What are the symptoms of [specific illness]?
+general_health_tips,Give me some health tips
+general_health_tips,How to maintain a healthy lifestyle?
+general_health_tips,Suggest a healthy diet plan
+insurance_details,Which insurance plans cover [specific procedure]?
+insurance_details,Details about my insurance coverage
+insurance_details,Insurance requirements for hospital services
+pharmacy_product_availability,Is [specific medication] available at pharmacies nearby?
+pharmacy_product_availability,Check the availability of [brand name] at pharmacies
+pharmacy_product_availability,Locate pharmacies with [specific product]
+emergency_preparedness,What should I include in a medical emergency kit?
+emergency_preparedness,Steps to take during a health emergency
+emergency_preparedness,Emergency contact information
+feedback_and_complaints,"I had a bad experience, how can I provide feedback?"
+feedback_and_complaints,Complaints about hospital services
+feedback_and_complaints,Share my dissatisfaction with a recent visit
+post_appointment_follow_up,What should I do after my appointment?
+post_appointment_follow_up,Post-appointment care instructions
+post_appointment_follow_up,Follow-up procedures after seeing a doctor
+hospital_facilities,Tell me about the facilities at the hospital
+hospital_facilities,What facilities are available for patients?
+hospital_facilities,Information about hospital amenities
+hospital_facilities,Facilities for patients at the medical center
+appointment_confirmation,Can you confirm my hospital appointment?
+appointment_confirmation,Verify my scheduled appointment
+appointment_confirmation,Check if my appointment is confirmed
+cancel_appointment,I need to cancel my hospital appointment
+cancel_appointment,Cancel the scheduled appointment
+cancel_appointment,Cancle my appointment on [specific date]
+cancel_hospital_appointment,I changed my mind about canceling the appointment
+cancel_hospital_appointment,Continue with the scheduled appointment
+cancel_hospital_appointment,Retain the existing appointment
+cancel_hospital_appointment,Keep the appointment as is
+health_insurance_plans,Tell me about available health insurance plans
+health_insurance_plans,Information on health insurance
+health_insurance_plans,Health insurance options at the hospital
+health_insurance_plans,Available insurance policies
+prescription_refill,How to refill prescriptions?
+prescription_refill,Request prescription refill
+prescription_refill,Prescription renewal process
+prescription_refill,Renew my medications
+hospital_rooms,Tell me about the types of rooms available
+hospital_rooms,Room options for patients
+hospital_rooms,Hospital accommodation details
+hospital_rooms,Types of patient rooms
+patient_rights,What are my rights as a patient?
+patient_rights,Patient rights at the hospital
+patient_rights,Understanding my rights as a healthcare consumer
+patient_rights,Know my rights as a patient
+hospital_billing,How does hospital billing work?
+hospital_billing,Understanding medical bills
+hospital_billing,Information on hospital charges
+hospital_billing,Billing and payment details
+hospital_wifi,Is there Wi-Fi available at the hospital?
+hospital_wifi,Wi-Fi access for patients
+hospital_wifi,Connect to hospital Wi-Fi
+hospital_wifi,Hospital internet facilities
+hospital_social_media,Connect with the hospital on social media
+hospital_social_media,Hospital social media accounts
+hospital_social_media,Social media presence
+hospital_social_media,Find the hospital on social platforms
+lab_test_information,Tell me about [specific lab test]
+lab_test_information,Lab test details for [patient name]
+lab_test_information,How to prepare for a lab test?
+radiology_services,What radiology services are available?
+radiology_services,Tell me about X-ray services
+radiology_services,Radiology procedures at the hospital
+patient_admissions,How to admit a patient?
+patient_admissions,Patient admission process
+patient_admissions,Admission requirements
+medical_records,Access my medical records
+medical_records,How to request medical records?
+medical_records,Information on patient records
+hospital_events_and_programs,Are there any upcoming hospital events?
+hospital_events_and_programs,Tell me about health programs
+hospital_events_and_programs,Hospital workshops
+mental_health_services,Mental health support at the hospital
+mental_health_services,Psychiatry services
+mental_health_services,Counseling and therapy
+dietary_services,Tell me about hospital meals
+dietary_services,Dietary restrictions at the hospital
+dietary_services,Nutritional advice
+surgery_information,Tell me about upcoming surgeries
+surgery_information,Surgery procedures at the hospital
+surgery_information,How to prepare for surgery?
+rehabilitation_services,Rehabilitation programs at the hospital
+rehabilitation_services,Physical therapy services
+rehabilitation_services,Recovery programs
+maternity_services,Maternity ward facilities
+maternity_services,Prenatal care information
+maternity_services,Delivery room services
+pediatric_care,Pediatric services at the hospital
+pediatric_care,Children's ward facilities
+pediatric_care,Pediatrician information
+pharmacy_services,Prescription pick-up process
+pharmacy_services,Pharmacy hours of operation
+pharmacy_services,Medication availability
+health_and_wellness_classes,Are there health and wellness classes?
+health_and_wellness_classes,Join wellness programs
+health_and_wellness_classes,Fitness classes at the hospital
+volunteer_opportunities,Can I volunteer at the hospital?
+volunteer_opportunities,Information on volunteer programs
+volunteer_opportunities,Volunteer opportunities
+volunteer_opportunities,Community service opportunities
+community_outreach,Hospital community events
+community_outreach,Community outreach programs
+community_outreach,Health education in the community
+hospital_technology,What technology does the hospital use?
+hospital_technology,Digital health services
+hospital_technology,Telemedicine options
+special_events_and_celebrations,Hospital anniversaries
+special_events_and_celebrations,Special celebrations at the hospital
+special_events_and_celebrations,Events for patients
+patient_education,Educational resources for patients
+patient_education,Where can I find health information?
+patient_education,Patient education materials
+support_groups,Join a support group
+support_groups,Support groups for patients
+support_groups,Coping with illness
+cafeteria_and_food_services,Hospital cafeteria hours
+cafeteria_and_food_services,Food services for patients
+cafeteria_and_food_services,Dietary restrictions
+patient_advocacy,How does patient advocacy work?
+patient_advocacy,Advocacy services for patients
+patient_advocacy,Patient rights protection
+interpreter_services,Interpreter services at the hospital
+interpreter_services,Language assistance
+interpreter_services,Translation support
+financial_assistance,Financial assistance programs
+financial_assistance,Help with medical bills
+financial_assistance,Financial aid for patients
+telehealth_services,Can I schedule a telehealth appointment?
+telehealth_services,Telehealth services offered
+telehealth_services,Remote medical consultations
+wellness_checkups,Schedule a wellness checkup
+wellness_checkups,Wellness exams for patients
+wellness_checkups,Preventive healthcare appointments
+health_insurance_assistance,Assistance with health insurance claims
+health_insurance_assistance,Insurance-related queries
+health_insurance_assistance,Navigating insurance coverage
+spiritual_and_chaplain_services,Chaplain services at the hospital
+spiritual_and_chaplain_services,Spiritual support for patients
+spiritual_and_chaplain_services,Religious services
+patient_portal_assistance,How to use the patient portal?
+patient_portal_assistance,Accessing medical records online
+patient_portal_assistance,Patient portal support
+patient_rights_workshop,Participate in patient rights workshop
+patient_rights_workshop,Understanding patient rights
+patient_rights_workshop,Workshops for healthcare consumers
+hospital_art_and_recreation,Art programs at the hospital
+hospital_art_and_recreation,Recreational activities for patients
+hospital_art_and_recreation,Hospital art exhibits
+maternity_services,Maternity care at the hospital
+maternity_services,Prenatal services
+maternity_services,Delivery options
+cancer_support_services,Support for cancer patients
+cancer_support_services,Cancer treatment information
+cancer_support_services,Cancer care resources
+physical_therapy_services,Physical therapy options
+physical_therapy_services,Rehabilitation services
+physical_therapy_services,Therapeutic exercises
+nutrition_and_dietary_advice,Nutritional advice for patients
+nutrition_and_dietary_advice,Dietary recommendations
+nutrition_and_dietary_advice,Healthy eating tips
+senior_care_and_geriatrics,Elderly care services
+senior_care_and_geriatrics,Geriatric healthcare
+senior_care_and_geriatrics,Senior wellness programs
+medical_research_participation,Participate in medical research
+medical_research_participation,Clinical trials at the hospital
+medical_research_participation,Contribute to medical studies
+health_and_wellness_workshops,Attend health workshops
+health_and_wellness_workshops,Wellness events at the hospital
+health_and_wellness_workshops,Health education programs
+rehabilitation_services,Rehabilitation programs
+rehabilitation_services,Physical therapy services
+rehabilitation_services,Recovery and rehabilitation
+pediatric_care,Pediatric healthcare services
+pediatric_care,Child wellness programs
+pediatric_care,Specialized care for children
+mental_health_support,Mental health services
+mental_health_support,Counseling and therapy
+mental_health_support,Emotional well-being support
+diabetes_management,Diabetes care and management
+diabetes_management,Blood sugar monitoring
+diabetes_management,Diabetic patient support
+home_healthcare_services,Home healthcare options
+home_healthcare_services,At-home medical support
+home_healthcare_services,Remote patient care
+dental_services,Dental care at the hospital
+dental_services,Oral health services
+dental_services,Dental checkups
+smoking_cessation_programs,Quit smoking programs
+smoking_cessation_programs,Smoking cessation support
+smoking_cessation_programs,Tobacco cessation resources
+patient_and_family_counseling,Counseling services for patients
+patient_and_family_counseling,Family therapy programs
+patient_and_family_counseling,Emotional support
+technology_assistance,Help with hospital technology
+technology_assistance,Assistance with medical apps
+technology_assistance,Technical support
+patient_advocacy_workshops,Participate in advocacy workshops
+patient_advocacy_workshops,Advocacy training for patients
+patient_advocacy_workshops,Patient rights education
+hospital_events_and_seminars,Upcoming hospital events
+hospital_events_and_seminars,Health seminars and conferences
+hospital_events_and_seminars,Community outreach programs
+sleep_disorder_clinic,Sleep disorder evaluation
+sleep_disorder_clinic,Clinic for sleep-related issues
+sleep_disorder_clinic,Sleep study services
+nutrition_and_diet_planning,Nutritional counseling services
+nutrition_and_diet_planning,Diet planning for patients
+nutrition_and_diet_planning,Healthy eating programs
+community_health_fairs,Participate in health fairs
+community_health_fairs,Community wellness events
+community_health_fairs,Health checkup camps
+alternative_medicine_services,Explore alternative medicine
+alternative_medicine_services,Holistic health services
+alternative_medicine_services,Alternative therapies
+travel_health_information,Health advice for travelers
+travel_health_information,Travel immunizations
+travel_health_information,Medical advice for trips
+language_interpretation_services,Language interpretation assistance
+language_interpretation_services,Translation services for patients
+language_interpretation_services,Multilingual support
+cancer_support_services,Cancer patient support
+cancer_support_services,Oncology counseling services
+cancer_support_services,Support for cancer survivors
+palliative_care_services,Palliative care information
+palliative_care_services,Support for serious illnesses
+palliative_care_services,End-of-life care services
+art_and_music_therapy,Art therapy programs
+art_and_music_therapy,Music therapy for patients
+art_and_music_therapy,Creative expression sessions
+hospital_safety_information,Hospital safety guidelines
+hospital_safety_information,Emergency evacuation procedures
+hospital_safety_information,Patient and visitor safety tips
+fitness_and_exercise_programs,Fitness classes at the hospital
+fitness_and_exercise_programs,Exercise programs for patients
+fitness_and_exercise_programs,Wellness workouts
+medical_equipment_loan_program,Loan program for medical equipment
+medical_equipment_loan_program,Borrow medical devices
+medical_equipment_loan_program,Assistive technology services
+disease_prevention_workshops,Participate in disease prevention workshops
+disease_prevention_workshops,Health education for prevention
+disease_prevention_workshops,Preventive care programs
+environmental_health_information,Environmental health tips
+environmental_health_information,Hospital sustainability initiatives
+environmental_health_information,Green healthcare practices
+telemedicine_services,Access telemedicine services
+telemedicine_services,Virtual healthcare consultations
+telemedicine_services,Remote medical appointments
+understanding_mental_illness,What is mental illness?
+understanding_mental_illness,How prevalent is mental illness?
+understanding_mental_illness,What are the symptoms of mental health disorders?
+understanding_mental_illness,How is mental illness diagnosed?
+understanding_mental_illness,Are there different types of mental illnesses?
+prevalence_of_mental_illness,How common is mental illness?
+prevalence_of_mental_illness,Does mental illness affect all age groups?
+prevalence_of_mental_illness,Are certain mental illnesses more prevalent in specific populations?
+symptoms_of_mental_health_disorders,What are the general symptoms of mental health disorders?
+symptoms_of_mental_health_disorders,"How do symptoms vary in adults, older children, and younger children?"
+treatment_and_recovery,What is the treatment for mental illness?
+treatment_and_recovery,Can people with mental illness recover?
+treatment_and_recovery,How effective is the treatment?
+finding_right_professional,How can I find the right mental health professional?
+finding_right_professional,What factors should I consider when choosing a professional?
+medication_and_treatment_plans,What should I know about medication?
+medication_and_treatment_plans,Can I stop taking medication if I feel better?
+medication_and_treatment_plans,How is medication monitored?
+types_of_therapy,What are the types of therapy?
+types_of_therapy,How do different types of therapy work?
+finding_health_professionals,"How can I find a doctor, psychiatrist, psychologist, or counsellor?"
+finding_health_professionals,How can I see a psychiatrist?
+finding_health_professionals,How can I see a psychologist?
+finding_health_professionals,How can I see a counsellor?
+finding_support_services,How can I find a support group?
+finding_support_services,Where can I find child and youth mental health services?
+finding_support_services,Where can older adults find help for mental health concerns?
+finding_self_help,Where can I find self-help materials for depression?
+finding_self_help,Where can I find self-help materials for anxiety?
+coping_with_physical_health,I’m having a hard time coping with a physical health problem. Where can I find help?
+substance_use_and_addiction,When is substance use a problem? Where can I go for help?
+substance_use_and_addiction,How can I find help for an alcohol or drug use problem?
+substance_use_and_addiction,How do I know if I'm drinking too much?
+financial_assistance_and_resources,Can I get help paying for prescription medications?
+financial_assistance_and_resources,How can I pay for mental health care?
+financial_assistance_and_resources,How do I apply for income assistance?
+mental_health_terminology,What is MSP?
+mental_health_terminology,What is a referral?
+professional_differences,What's the difference between a psychiatrist and a registered psychologist?
+professional_differences,What's the difference between psychotherapy and counselling?
+professional_differences,What's the difference between CBT and DBT?
+professional_differences,What's the difference between antidepressants?
+mental_health_conditions,I received a diagnosis but I don’t think it’s right. What can I do?
+mental_health_conditions,I was prescribed an antidepressant or other psychiatric medication but I don’t think it’s working. What can I do?
+concerns_for_others,An adult in my life seems ill and won’t find help. What can I do?
+concerns_for_others,I’m worried about my child or teenager. Where can I find help?
+concerns_for_others,Someone I care about has a brain injury. Where can I find more information?
+concerns_for_others,Someone I love has been diagnosed with depression. How can I help?
+concerns_for_others,Someone I love has been diagnosed with schizophrenia. How can I help?
+concerns_for_others,"I’m a young person, and one of my parents has a mental illness. What can I do?"
+suicide_prevention,What are some warning signs of suicidal thoughts?
+suicide_prevention,How can I approach someone I suspect is struggling with suicidal thoughts?
+suicide_prevention,Tell me about resources for suicide prevention and mental health support.
+cannabis_information,What are the potential health risks of cannabis use?
+cannabis_information,Is cannabis addiction a real concern?
+cannabis_information,Tell me about the legal implications of cannabis use in different regions.
+mental_health_vs_illness,Can mental health issues be prevented?
+mental_health_vs_illness,How can I promote positive mental health in my daily life?
+mental_health_vs_illness,Tell me about the stigma surrounding mental illness and ways to combat it.
+depression_information,How can I support someone with depression?
+depression_information,What are the treatment options for clinical depression?
+depression_information,Tell me about the role of therapy in managing depression.
+anxiety_vs_disorder,Can anxiety symptoms be managed without medication?
+anxiety_vs_disorder,What are common triggers for anxiety disorders?
+anxiety_vs_disorder,Tell me about coping strategies for anxiety.
+stress_vs_anxiety,How can I distinguish between normal stress and problematic anxiety?
+stress_vs_anxiety,Are there relaxation techniques for managing stress and anxiety?
+stress_vs_anxiety,Tell me about the impact of chronic stress on mental health.
+sadness_vs_depression,How long does typical sadness last?
+sadness_vs_depression,What are the common signs of clinical depression?
+sadness_vs_depression,Tell me about self-help strategies for managing mild depressive symptoms.
+dysthymia_and_cyclothymic_disorders,What are the symptoms of dysthymia?
+dysthymia_and_cyclothymic_disorders,Can cyclothymic disorder be managed with therapy alone?
+dysthymia_and_cyclothymic_disorders,Tell me more about persistent depressive disorder.
+rapid_cycling_and_prodrome,How is rapid cycling in bipolar disorder treated?
+rapid_cycling_and_prodrome,Are there warning signs of a prodrome for mental health episodes?
+rapid_cycling_and_prodrome,Tell me more about mood stabilizers for rapid cycling.
+adhd_concerns,What are common signs of ADHD in adults?
+adhd_concerns,Can ADHD be managed without medication?
+adhd_concerns,Tell me about ADHD assessment and diagnosis.
+substance_use_vs_addiction,How can I differentiate between casual substance use and addiction?
+substance_use_vs_addiction,What are the long-term effects of substance addiction?
+substance_use_vs_addiction,Tell me about interventions for substance abuse.
+alcohol_and_drug_use_help,Where can I find local support groups for alcohol addiction?
+alcohol_and_drug_use_help,What are the treatment options for drug use problems?
+alcohol_and_drug_use_help,Tell me about the importance of seeking professional help for addiction.
+underage_drug_use_concerns,How can I educate my children about the risks of drug use?
+underage_drug_use_concerns,Are there community programs to prevent underage drug use?
+underage_drug_use_concerns,Tell me about the impact of parental involvement on preventing drug use in teens.

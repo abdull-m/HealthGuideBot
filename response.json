@@ -1,0 +1,648 @@
+{
+  "greeting": [
+    "Hello! Thanks for reaching out.",
+    "Good to see you! How can I assist you today?",
+    "Hi there! How can I help?",
+    "Hey! I'm here to help. What can I do for you?",
+    "Hola! How can I assist you today?",
+    "Greetings! What brings you here?",
+    "Hey, what's up? How can I assist you?",
+    "Salutations! How may I help you?",
+    "Hello! I'm here and ready to assist.",
+    "What can I do for you today?",
+    "Hi! What brings you to me?",
+    "Top of the morning! How can I assist you?",
+    "Hey there! What's on your mind?",
+    "Hi, good to see you! How can I help?",
+    "Hey! What's happening? How can I assist you?"
+  ],
+  "goodbye": [
+    "See you!",
+    "Have a nice day!",
+    "Goodbye! Come back again soon.",
+    "Farewell! Take care.",
+    "Until next time!",
+    "Adios! Safe travels.",
+    "So long! It was great chatting with you.",
+    "Take care of yourself!",
+    "Goodbye! Wishing you a wonderful day.",
+    "Catch you later! Feel free to return anytime.",
+    "It's been a pleasure chatting with you. Goodbye!",
+    "Time to go! If you have more questions, feel free to ask.",
+    "I'm off. Have a fantastic day!",
+    "Goodnight! Sleep well.",
+    "See you around! If you ever need assistance, I'm here.",
+    "Toodles! Until next time.",
+    "Ciao! Have a great day.",
+    "Hasta luego! Take care and see you soon.",
+    "Peace out! If you need anything else, don't hesitate to ask."
+  ],
+  "thanks": [
+    "Happy to help!",
+    "Anytime!",
+    "My pleasure!",
+    "Glad I could assist!",
+    "You're welcome!",
+    "No problem at all!",
+    "You're very welcome!",
+    "I'm here to help anytime you need.",
+    "It was my pleasure to assist you!",
+    "You're most welcome!",
+    "Thanks for reaching out!",
+    "I appreciate your kind words!",
+    "Always here to help!",
+    "No need to thank me!",
+    "It's what I'm here for!",
+    "You're appreciated!",
+    "You're awesome!",
+    "I'm glad I could be of assistance!",
+    "You made my day! Thank you!",
+    "Thanks a bunch for your kind words!"
+  ],
+  "noanswer": [
+    "Sorry, I can't understand you",
+    "Please provide more info",
+    "Not sure I understand"
+  ],
+  "options": [
+    "I can guide you through adverse drug reactions, blood pressure tracking, and provide information about hospitals and pharmacies.",
+    "Offering support for adverse drug reactions, blood pressure, hospitals, and pharmacies"
+  ],
+  "adverse_drug": [
+    "Navigating to the adverse drug reaction module.",
+    "You can access information on adverse drug reactions in the designated module.",
+    "Sure, let me guide you to the adverse drug reaction module.",
+    "I can assist you with adverse drug reactions. Navigating to the relevant module.",
+    "Opening the adverse drug reaction module for you."
+  ],
+  "blood_pressure": [
+    "Navigating to the Blood Pressure module.",
+    "You can manage and log blood pressure results in the dedicated Blood Pressure module.",
+    "Sure, let's explore the blood pressure module together.",
+    "Opening the blood pressure module for you.",
+    "I can assist you with blood pressure-related tasks. Navigating to the relevant module."
+  ],
+  "blood_pressure_search": [
+    "Please provide the Patient ID.",
+    "Patient ID, please?",
+    "Sure, I'll need the Patient ID to proceed.",
+    "To assist you better, could you provide the Patient ID?",
+    "Certainly, I can help with that. Could you please provide the Patient ID?"
+  ],
+  "provide_patient_id": [
+    "Great! Let me fetch the results for Patient ID [Patient_ID]."
+  ],
+  "search_blood_pressure_by_patient_id": [
+    "Loading Blood pressure results for the patient"
+  ],
+  "pharmacy_search": [
+    "Please provide the pharmacy name"
+  ],
+  "search_pharmacy_by_name": [
+    "Loading pharmacy details"
+  ],
+  "hospital_search": [
+    "Please provide hospital name or location"
+  ],
+  "search_hospital_by_params": [
+    "Please provide hospital type"
+  ],
+  "search_hospital_by_type": [
+    "Loading hospital details.",
+    "Retrieving information for the specified hospital type.",
+    "Searching for hospitals of the specified type. Please wait a moment.",
+    "Processing your request to load details for the specified hospital type.",
+    "Fetching details for hospitals of the specified type.",
+    "Loading information about hospitals of the specified type.",
+    "Retrieving hospital details based on the provided type.",
+    "Searching for hospitals of the specified type. Please wait a moment.",
+    "Loading details for hospitals categorized as the specified type.",
+    "Retrieving information for hospitals of the specified type. Please wait.",
+    "Getting details for hospitals of the specified type. Please wait.",
+    "Searching for hospitals based on the specified type. One moment please.",
+    "Loading information about hospitals categorized as the specified type. Please wait.",
+    "Retrieving details for hospitals of the specified type. One moment please.",
+    "Accessing information for hospitals categorized as the specified type.",
+    "Searching for hospitals based on the specified type. One moment please.",
+    "Loading details for hospitals categorized as the specified type. Please wait.",
+    "Retrieving information for hospitals of the specified type. Please wait a moment.",
+    "Searching for hospitals based on the specified type. One moment please.",
+    "Loading details for hospitals categorized as the specified type. Please wait.",
+    "Retrieving information for hospitals of the specified type. One moment please.",
+    "Searching for hospitals based on the specified type. Please wait a moment.",
+    "Loading details for hospitals categorized as the specified type. Please wait.",
+    "Retrieving information for hospitals of the specified type. One moment please.",
+    "Searching for hospitals based on the specified type. Please wait a moment.",
+    "Loading details for hospitals categorized as the specified type. Please wait.",
+    "Retrieving information for hospitals of the specified type. One moment please.",
+    "Searching for hospitals based on the specified type. Please wait a moment.",
+    "Loading details for hospitals categorized as the specified type. Please wait.",
+    "Retrieving information for hospitals of the specified type. One moment please.",
+    "Searching for hospitals based on the specified type. Please wait a moment.",
+    "Loading details for hospitals categorized as the specified type. Please wait.",
+    "Retrieving information for hospitals of the specified type. One moment please.",
+    "Searching for hospitals based on the specified type. Please wait a moment.",
+    "Loading details for hospitals categorized as the specified type. Please wait.",
+    "Retrieving information for hospitals of the specified type. One moment please.",
+    "Searching for hospitals based on the specified type. Please wait a moment.",
+    "Loading details for hospitals categorized as the specified type. Please wait.",
+    "Retrieving information for hospitals of the specified type. One moment please.",
+    "Searching for hospitals based on the specified type. Please wait a moment.",
+    "Loading details for hospitals categorized as the specified type. Please wait.",
+    "Retrieving information for hospitals of the specified type. One moment please."
+  ],
+  "schedule_hospital_appointment": [
+    "Great! Your appointment is scheduled. You will receive a confirmation shortly.",
+    "Your appointment request has been received. Expect a confirmation shortly.",
+    "Appointment scheduled! Confirmation details will be sent to you.",
+    "Fantastic! Your appointment is confirmed. Details will be sent shortly.",
+    "Appointment booked successfully! Confirmation details are on the way.",
+    "Thank you for scheduling with us! Confirmation details coming your way.",
+    "Your appointment is set! Expect confirmation details shortly.",
+    "Appointment confirmed! Details will be sent to you shortly.",
+    "Great choice! Your appointment is booked. Confirmation details incoming.",
+    "Appointment successfully scheduled! Confirmation details will be sent shortly.",
+    "Your appointment request is in! Confirmation details on the way.",
+    "Appointment booked! Confirmation details will be sent shortly.",
+    "Fantastic! Your appointment is confirmed. Details will be sent shortly.",
+    "Your appointment request has been received. Expect a confirmation shortly.",
+    "Appointment scheduled! Confirmation details will be sent to you.",
+    "Great! Your appointment is booked. Confirmation details on the way.",
+    "Appointment confirmed! Details will be sent to you shortly.",
+    "Thank you for scheduling with us! Confirmation details coming your way.",
+    "Your appointment is set! Expect confirmation details shortly.",
+    "Appointment booked successfully! Confirmation details are on the way.",
+    "Great choice! Your appointment is booked. Confirmation details incoming.",
+    "Appointment successfully scheduled! Confirmation details will be sent shortly.",
+    "Your appointment request is in! Confirmation details on the way.",
+    "Appointment booked! Confirmation details will be sent shortly.",
+    "Fantastic! Your appointment is confirmed. Details will be sent shortly.",
+    "Your appointment request has been received. Expect a confirmation shortly.",
+    "Appointment scheduled! Confirmation details will be sent to you.",
+    "Great! Your appointment is booked. Confirmation details on the way.",
+    "Appointment confirmed! Details will be sent to you shortly.",
+    "Thank you for scheduling with us! Confirmation details coming your way.",
+    "Your appointment is set! Expect confirmation details shortly.",
+    "Appointment booked successfully! Confirmation details are on the way.",
+    "Great choice! Your appointment is booked. Confirmation details incoming.",
+    "Appointment successfully scheduled! Confirmation details will be sent shortly.",
+    "Your appointment request is in! Confirmation details on the way.",
+    "Appointment booked! Confirmation details will be sent shortly.",
+    "Fantastic! Your appointment is confirmed. Details will be sent shortly.",
+    "Your appointment request has been received. Expect a confirmation shortly.",
+    "Appointment scheduled! Confirmation details will be sent to you.",
+    "Great! Your appointment is booked. Confirmation details on the way.",
+    "Appointment confirmed! Details will be sent to you shortly.",
+    "Thank you for scheduling with us! Confirmation details coming your way.",
+    "Your appointment is set! Expect confirmation details shortly.",
+    "Appointment booked successfully! Confirmation details are on the way.",
+    "Great choice! Your appointment is booked. Confirmation details incoming.",
+    "Appointment successfully scheduled! Confirmation details will be sent shortly.",
+    "Your appointment request is in! Confirmation details on the way."
+  ],
+  "hospital_services": [
+    "Our hospital provides a range of services including medical consultations, surgeries, emergency care, and more.",
+    "We offer comprehensive healthcare services, including medical consultations, diagnostic procedures, and specialized treatments.",
+    "The hospital provides a variety of healthcare services, such as medical consultations, surgeries, and diagnostic tests.",
+    "Our hospital is equipped with a range of healthcare services, from medical consultations to advanced surgeries.",
+    "We have a diverse range of healthcare services, including medical consultations, diagnostic tests, and specialized treatments.",
+    "At our hospital, you can access a wide range of healthcare services, including medical consultations, surgeries, and emergency care.",
+    "Our hospital is committed to providing quality healthcare services, from medical consultations to specialized treatments.",
+    "We offer a variety of healthcare services, including medical consultations, surgeries, and diagnostic procedures.",
+    "The hospital is equipped with a comprehensive range of healthcare services, ensuring quality medical care for our patients.",
+    "Our hospital's services cover a wide spectrum, including medical consultations, surgeries, and specialized treatments.",
+    "We provide a variety of healthcare services, ensuring that our patients receive comprehensive medical care.",
+    "At our hospital, you can expect a range of healthcare services, from medical consultations to advanced surgical procedures.",
+    "We are dedicated to providing a range of healthcare services, including medical consultations, surgeries, and diagnostic tests.",
+    "Our hospital's services include medical consultations, surgeries, emergency care, and various specialized treatments.",
+    "We offer a diverse range of healthcare services, ensuring that our patients receive comprehensive and quality medical care.",
+    "Our hospital provides a variety of healthcare services, such as medical consultations, surgeries, and diagnostic tests.",
+    "We have a diverse range of healthcare services, including medical consultations, diagnostic tests, and specialized treatments.",
+    "At our hospital, you can access a wide range of healthcare services, including medical consultations, surgeries, and emergency care.",
+    "Our hospital is committed to providing quality healthcare services, from medical consultations to specialized treatments.",
+    "We offer a variety of healthcare services, including medical consultations, surgeries, and diagnostic procedures.",
+    "The hospital is equipped with a comprehensive range of healthcare services, ensuring quality medical care for our patients.",
+    "Our hospital's services cover a wide spectrum, including medical consultations, surgeries, and specialized treatments.",
+    "We provide a variety of healthcare services, ensuring that our patients receive comprehensive medical care.",
+    "At our hospital, you can expect a range of healthcare services, from medical consultations to advanced surgical procedures.",
+    "We are dedicated to providing a range of healthcare services, including medical consultations, surgeries, and diagnostic tests.",
+    "Our hospital's services include medical consultations, surgeries, emergency care, and various specialized treatments.",
+    "We offer a diverse range of healthcare services, ensuring that our patients receive comprehensive and quality medical care."
+  ],
+  "hospital_doctors": [
+    "Sure, I can help you with that. Please provide the name or specialty of the doctor you're looking for."
+  ],
+  "search_hospital_doctors": [
+    "Loading information about the doctor. Please wait."
+  ],
+  "hospital_location": [
+    "The hospital is located at [address]. If you need detailed directions, please let me know."
+  ],
+  "hospital_insurance": [
+    "Yes, the hospital accepts various insurance plans. To provide accurate information, please specify the name of your insurance provider."
+  ],
+  "hospital_emergencies": [
+    "In case of an emergency, please dial 991. If you're at the hospital, head to the nearest emergency room for immediate assistance."
+  ],
+  "hospital_departments": [
+    "The hospital has various departments including cardiology, pediatrics, oncology, neurology, and more. If you're interested in a specific department, feel free to ask for details."
+  ],
+  "hospital_parking": [
+    "Yes, the hospital provides parking facilities for patients and visitors. If you have specific questions about parking, feel free to ask."
+  ],
+  "hospital_visiting_hours": [
+    "The hospital's visiting hours are [visiting hours]. Please note that visiting hours may vary by department. If you have specific visitation preferences, let me know."
+  ],
+  "hospital_feedback": [
+    "We value your feedback! You can share your experience or provide suggestions by visiting our website or contacting our feedback department. Thank you for helping us improve."
+  ],
+  "appointment_modification": [
+    "Sure, I can assist you with that. Please provide your appointment details."
+  ],
+  "medication_information": [
+    "Providing information about the medication. Please specify the drug or patient name."
+  ],
+  "health_condition_queries": [
+    "Sure, I can provide information about various health conditions. Please specify the condition you're interested in."
+  ],
+  "general_health_tips": [
+    "Certainly! Here are some general health tips: [provide health tips]. If you have specific health concerns, feel free to ask for personalized advice."
+  ],
+  "insurance_details": [
+    "To provide accurate information, please specify the name of your insurance provider or the procedure you're inquiring about."
+  ],
+  "pharmacy_product_availability": [
+    "Sure, I can help you check the availability of the medication or product. Please provide more details."
+  ],
+  "emergency_preparedness": [
+    "Being prepared for emergencies is important. Here are some guidelines for creating a medical emergency kit and steps to take during a health emergency."
+  ],
+  "feedback_and_complaints": [
+    "We're sorry to hear about your experience. Your feedback is important to us. You can provide feedback by visiting our website or contacting our feedback department."
+  ],
+  "post_appointment_follow_up": [
+    "After your appointment, it's important to follow any post-care instructions provided by your healthcare provider. If you have specific questions about post-appointment care or need further guidance, feel free to ask."
+  ],
+  "hospital_facilities": [
+    "Our hospital is equipped with various facilities to ensure the comfort and well-being of patients. These include waiting areas, cafeterias, and more. If you have specific facility-related inquiries, let me know."
+  ],
+  "appointment_confirmation": [
+    "Sure, I can help you with that. Please provide your appointment details, and I'll confirm it for you."
+  ],
+  "cancel_appointment": [
+    "Certainly, I can assist you with canceling your appointment. Please provide the details of the appointment you wish to cancel."
+  ],
+  "cancel_hospital_appointment": [
+    "Great! Your appointment remains scheduled. If you have any further questions or requests, feel free to let me know."
+  ],
+  "health_insurance_plans": [
+    "We offer a variety of health insurance plans to cater to different needs. To provide information tailored to your requirements, please specify the type of coverage or policy you're interested in."
+  ],
+  "prescription_refill": [
+    "Sure, I can assist you with the prescription refill process. Please provide the details of the prescription you'd like to renew."
+  ],
+  "prescription_refill_details": [
+    "Processing your prescription refill request. This may take a moment."
+  ],
+  "hospital_rooms": [
+    "Our hospital offers different types of rooms, including private rooms, semi-private rooms, and wards. The availability may vary. If you have specific preferences or questions, feel free to ask."
+  ],
+  "patient_rights": [
+    "As a patient, you have certain rights, including the right to informed consent, privacy, and respectful treatment. If you have specific questions about your rights or need further information, feel free to ask."
+  ],
+  "hospital_billing": [
+    "Hospital billing involves charges for medical services, procedures, and accommodations. If you have specific questions about billing or need details about a recent bill, please provide more information."
+  ],
+  "hospital_wifi": [
+    "Yes, the hospital provides Wi-Fi facilities for patients. If you need assistance with connecting to the Wi-Fi or have other internet-related inquiries, feel free to ask."
+  ],
+  "hospital_social_media": [
+    "You can connect with us on social media platforms such as Facebook, Twitter, and Instagram. Stay updated on hospital news, events, and health tips by following our official accounts."
+  ],
+  "lab_test_information": [
+    "Providing information about the lab test. Please specify the test or patient name."
+  ],
+  "radiology_services": [
+    "Our hospital offers a range of radiology services, including X-rays, MRIs, and CT scans. If you have specific inquiries, feel free to ask."
+  ],
+  "patient_admissions": [
+    "The patient admission process involves [steps]. If you have a specific admission question, please let me know."
+  ],
+  "medical_records": [
+    "Accessing medical records requires [procedure]. If you need assistance, please provide more details."
+  ],
+  "hospital_events_and_programs": [
+    "Stay informed about our upcoming events and health programs. Check our website or contact us for details."
+  ],
+  "mental_health_services": [
+    "We provide mental health services, including counseling and therapy. If you have specific mental health inquiries, feel free to ask."
+  ],
+  "dietary_services": [
+    "Our hospital offers nutritious meals. If you have dietary restrictions or need nutritional advice, please let me know."
+  ],
+  "surgery_information": [
+    "Providing information about upcoming surgeries. If you have specific inquiries, please specify."
+  ],
+  "rehabilitation_services": [
+    "Discover our rehabilitation services to support your recovery journey. If you have questions about physical therapy, rehabilitation programs, or recovery options, feel free to ask."
+  ],
+  "maternity_services": [
+    "Explore our comprehensive maternity services. If you have questions about prenatal care, delivery options, or maternity facilities, feel free to ask."
+  ],
+  "pediatric_care": [
+    "We provide comprehensive pediatric healthcare services and specialized care for children. If you have questions about child wellness programs or pediatric healthcare, feel free to ask."
+  ],
+  "pharmacy_services": [
+    "Our pharmacy offers prescription services. If you have questions about medication availability or pick-up, let us know."
+  ],
+  "health_and_wellness_classes": [
+    "Stay healthy with our wellness classes and programs. Check our schedule or contact us for details on health and wellness offerings."
+  ],
+  "volunteer_opportunities": [
+    "We welcome volunteers! If you're interested in contributing your time, please inquire about our volunteer programs."
+  ],
+  "community_outreach": [
+    "Engage with our community events and outreach programs. Stay connected to our health education initiatives."
+  ],
+  "hospital_technology": [
+    "Our hospital utilizes cutting-edge technology, including [mention specific technologies]. If you have tech-related inquiries, feel free to ask."
+  ],
+  "special_events_and_celebrations": [
+    "Celebrate special occasions with us! Stay tuned for hospital anniversaries and patient-focused events."
+  ],
+  "patient_education": [
+    "Access our patient education resources for valuable health information. If you have specific topics in mind, let me know."
+  ],
+  "support_groups": [
+    "We offer support groups for patients facing various challenges. If you're interested in joining a support group, please inquire for details."
+  ],
+  "cafeteria_and_food_services": [
+    "Explore our cafeteria and food services. If you have dietary restrictions or specific food-related questions, feel free to ask."
+  ],
+  "patient_advocacy": [
+    "Our patient advocacy services aim to protect your rights. If you need assistance or have advocacy-related inquiries, let me know."
+  ],
+  "interpreter_services": [
+    "We provide interpreter services to assist with language barriers. If you require language support, please let us know your language preference."
+  ],
+  "financial_assistance": [
+    "Explore our financial assistance programs. If you have questions about medical bills or need financial aid, we're here to help."
+  ],
+  "telehealth_services": [
+    "Discover our telehealth services for remote medical consultations. If you're interested in scheduling a telehealth appointment, let me know."
+  ],
+  "wellness_checkups": [
+    "Prioritize your health with our wellness checkups. If you'd like to schedule a wellness exam or have questions, feel free to ask."
+  ],
+  "health_insurance_assistance": [
+    "We can assist you with health insurance-related inquiries and claims. If you need support with insurance matters, let us know."
+  ],
+  "spiritual_and_chaplain_services": [
+    "Our chaplain services provide spiritual support. If you have specific spiritual or religious preferences, feel free to share them."
+  ],
+  "patient_portal_assistance": [
+    "Learn about our patient portal for convenient access to medical records. If you have questions about using the portal, we're here to assist."
+  ],
+  "patient_rights_workshop": [
+    "Engage in our patient rights workshop to better understand your rights as a healthcare consumer. If you're interested, inquire for details."
+  ],
+  "hospital_art_and_recreation": [
+    "Experience art and recreation at the hospital. If you're interested in art programs or recreational activities, let us know."
+  ],
+  "cancer_support_services": [
+    "Access our support services for cancer patients. If you're looking for oncology counseling or support for cancer survivors, inquire for details."
+  ],
+  "physical_therapy_services": [
+    "Discover our physical therapy services aimed at promoting healing and recovery. If you have questions about rehabilitation or therapeutic exercises, feel free to ask."
+  ],
+  "nutrition_and_dietary_advice": [
+    "Get personalized nutritional advice and dietary recommendations. If you're looking for tips on healthy eating, we're here to guide you."
+  ],
+  "senior_care_and_geriatrics": [
+    "Our hospital offers specialized care for seniors. If you have inquiries about elderly care services, geriatric healthcare, or senior wellness programs, feel free to ask."
+  ],
+  "medical_research_participation": [
+    "Contribute to medical research by participating in clinical trials and studies. If you're interested in learning more or joining a research initiative, let us know."
+  ],
+  "health_and_wellness_workshops": [
+    "Join our health and wellness workshops to enhance your well-being. If you're interested in attending educational programs or wellness events, inquire for details."
+  ],
+  "mental_health_support": [
+    "Our hospital offers mental health services, counseling, and therapy for emotional well-being support. If you're seeking assistance or information, we're here to help."
+  ],
+  "diabetes_management": [
+    "Explore our diabetes care and management services, including blood sugar monitoring and support for diabetic patients. If you have questions or need assistance, feel free to inquire."
+  ],
+  "home_healthcare_services": [
+    "Discover our home healthcare services, providing at-home medical support and remote patient care. If you're interested in exploring options for home-based healthcare, let us know."
+  ],
+  "dental_services": [
+    "We provide comprehensive dental services. If you have inquiries about dental care, oral health services, or want to schedule a dental checkup, let us know."
+  ],
+  "smoking_cessation_programs": [
+    "Join our smoking cessation programs for support in quitting smoking. If you're interested in tobacco cessation resources or need assistance, inquire for details."
+  ],
+  "patient_and_family_counseling": [
+    "Access our patient and family counseling services for emotional support. If you have questions about counseling programs or need assistance, feel free to ask."
+  ],
+  "technology_assistance": [
+    "We offer assistance with hospital technology and medical apps. If you have technical questions or need support, let us know."
+  ],
+  "patient_advocacy_workshops": [
+    "Engage in our patient advocacy workshops to learn more about your rights. If you're interested in advocacy training or patient rights education, inquire for details."
+  ],
+  "hospital_events_and_seminars": [
+    "Stay informed about our upcoming events, health seminars, and community outreach programs. If you're interested in participating, inquire for details."
+  ],
+  "sleep_disorder_clinic": [
+    "Visit our sleep disorder clinic for evaluation and support. If you have questions about sleep-related issues or need information on sleep studies, feel free to ask."
+  ],
+  "nutrition_and_diet_planning": [
+    "Access our nutritional counseling services and personalized diet planning. If you have specific dietary goals or questions, let us know."
+  ],
+  "community_health_fairs": [
+    "Stay involved in our community health fairs and wellness events. If you're interested in participating or need information about health checkup camps, let us know."
+  ],
+  "alternative_medicine_services": [
+    "Discover our alternative medicine services for holistic health. If you have questions about alternative therapies or holistic health options, feel free to ask."
+  ],
+  "travel_health_information": [
+    "Get travel health information for a safe journey. If you're planning a trip and need health advice, immunizations, or medical guidance, inquire for details."
+  ],
+  "language_interpretation_services": [
+    "We provide language interpretation services for patients. If you need assistance in a specific language or require translation services, let us know."
+  ],
+  "palliative_care_services": [
+    "Learn about our palliative care services for support with serious illnesses. If you have questions about end-of-life care or palliative care information, inquire for details."
+  ],
+  "art_and_music_therapy": [
+    "Engage in our art and music therapy programs for creative expression. If you're interested in art therapy sessions or music therapy for patients, let us know."
+  ],
+  "hospital_safety_information": [
+    "Stay informed about our hospital safety guidelines. If you have questions about emergency evacuation procedures or need safety tips for patients and visitors, inquire for details."
+  ],
+  "fitness_and_exercise_programs": [
+    "Participate in our fitness and exercise programs. If you're interested in fitness classes, exercise programs, or wellness workouts, inquire for details."
+  ],
+  "medical_equipment_loan_program": [
+    "Explore our medical equipment loan program. If you need to borrow medical devices or inquire about assistive technology services, let us know."
+  ],
+  "disease_prevention_workshops": [
+    "Join our disease prevention workshops for health education. If you're interested in preventive care programs or learning about disease prevention, inquire for details."
+  ],
+  "environmental_health_information": [
+    "Stay informed about environmental health tips and our hospital's sustainability initiatives. If you have questions about green healthcare practices, inquire for details."
+  ],
+  "telemedicine_services": [
+    "Explore our telemedicine services for virtual healthcare consultations. If you're interested in remote medical appointments or accessing healthcare through telemedicine, let us know."
+  ],
+  "understanding_mental_illness": [
+    "Mental illness disrupts thoughts, emotions, and daily functioning.",
+    "It affects 1 in 5 adults and varies in severity.",
+    "Symptoms include confused thinking, mood swings, social withdrawal, and more.",
+    "Diagnosis involves assessing symptoms and their impact.",
+    "Yes, there are various types of mental illnesses with different characteristics."
+  ],
+  "prevalence_of_mental_illness": [
+    "Mental illness is estimated to affect 1 in 5 adults in America.",
+    "It can affect anyone, regardless of age, gender, or background.",
+    "Certain conditions may be more common in specific populations."
+  ],
+  "symptoms_of_mental_health_disorders": [
+    "Symptoms include confused thinking, extreme mood swings, social withdrawal, and more.",
+    "Symptoms may vary in different age groups, such as changes in school performance in children."
+  ],
+  "treatment_and_recovery": [
+    "Treatment involves medication, therapy, or a combination.",
+    "Recovery is possible with proactive engagement in the treatment process.",
+    "Treatment is highly effective, with 70-90% experiencing a reduction in symptoms."
+  ],
+  "finding_right_professional": [
+    "Finding the right professional requires research and considering your needs.",
+    "Consider factors like expertise, approach, and comfort level when choosing a professional."
+  ],
+  "medication_and_treatment_plans": [
+    "Understand the purpose, side effects, and benefits before starting medication.",
+    "Consult your doctor before making decisions about stopping medication.",
+    "Medication is monitored, and adjustments are made based on symptoms and response."
+  ],
+  "types_of_therapy": [
+    "Therapy options vary and include counseling, psychotherapy, and more.",
+    "Different therapies address mental health issues through diverse approaches."
+  ],
+  "finding_health_professionals": [
+    "Search online directories, ask for referrals, or contact your local health authority.",
+    "Consult your primary care doctor for a referral or check with your insurance provider.",
+    "Ask for referrals from your doctor, check online directories, or contact your local psychological association.",
+    "Explore online directories, ask for recommendations, or contact your local counseling centers."
+  ],
+  "finding_support_services": [
+    "Search online for local support groups, inquire at mental health centers, or ask your healthcare provider.",
+    "Contact your child's school, local mental health services, or your healthcare provider for youth mental health services.",
+    "Explore resources like senior centers, healthcare providers, or mental health organizations for assistance."
+  ],
+  "finding_self_help": [
+    "Explore reputable websites, books, or online platforms dedicated to mental health and depression self-help materials.",
+    "Look for reliable sources online, consider therapy apps, or explore self-help books for anxiety."
+  ],
+  "coping_with_physical_health": [
+    "Reach out to your primary care doctor, inquire at local hospitals, or explore support groups for individuals facing similar challenges."
+  ],
+  "substance_use_and_addiction": [
+    "Substance use becomes a problem when it interferes with daily life. Seek help from addiction specialists or local treatment centers.",
+    "Contact addiction treatment centers, attend support groups, or consult with healthcare providers for help.",
+    "Assess your drinking habits, consult healthcare providers, or explore local support groups for guidance."
+  ],
+  "financial_assistance_and_resources": [
+    "Explore prescription assistance programs, drug discount cards, or inquire about financial aid from pharmaceutical companies.",
+    "Consider insurance coverage, explore sliding scale fees, or inquire about financial assistance programs from mental health providers.",
+    "Contact your local government office, explore online resources, or visit the official website for income assistance applications."
+  ],
+  "mental_health_terminology": [
+    "MSP (Medical Services Plan) is British Columbia's public health insurance plan.",
+    "A referral is a recommendation from a healthcare provider to see a specialist or receive specific services."
+  ],
+  "professional_differences": [
+    "Psychiatrists are medical doctors specializing in mental health; psychologists are trained in psychology. Psychiatrists can prescribe medication; psychologists provide therapy.",
+    "Psychotherapy involves talk therapy to address mental health issues; counseling is a broader term encompassing various types of guidance and support.",
+    "CBT (Cognitive-Behavioral Therapy) focuses on changing thought patterns and behaviors; DBT (Dialectical Behavior Therapy) emphasizes acceptance and change.",
+    "Antidepressants are medications that help manage symptoms of depression by affecting neurotransmitters in the brain."
+  ],
+  "mental_health_conditions": [
+    "Seek a second opinion from another healthcare professional or specialist for a comprehensive evaluation.",
+    "Communicate openly with your prescribing doctor, consider dosage adjustments or alternative medications, and attend regular follow-ups for monitoring."
+  ],
+  "concerns_for_others": [
+    "Express concern and encourage seeking professional help, offer support, and provide resources on available assistance.",
+    "Contact your child's school, local mental health services, or pediatricians for guidance and support resources.",
+    "Explore reputable websites, contact healthcare providers, or consult with specialists for information on brain injuries.",
+    "Offer support, encourage seeking professional help, and educate yourself about depression to provide informed assistance.",
+    "Learn about schizophrenia, offer emotional support, and encourage adherence to treatment plans. Consult mental health professionals for guidance.",
+    "Seek support from school counselors, trusted adults, or mental health organizations. Educate yourself and explore available resources for coping."
+  ],
+  "suicide_prevention": [
+    "Warning signs of suicidal thoughts include withdrawal, talking about death, and sudden mood changes. Approach the person with empathy and encourage professional help.",
+    "Approaching someone struggling with suicidal thoughts involves expressing concern, listening non-judgmentally, and helping them connect with mental health professionals.",
+    "Resources for suicide prevention and mental health support include crisis helplines, local mental health services, and online counseling platforms."
+  ],
+  "cannabis_information": [
+    "Potential health risks of cannabis use include impaired memory, mental health issues, and addiction. Consult healthcare professionals for personalized information.",
+    "Cannabis addiction is a real concern and may lead to dependence. Seeking professional help is crucial for individuals struggling with addiction.",
+    "Legal implications of cannabis use vary by region. Stay informed about local laws and regulations to ensure responsible and legal consumption."
+  ],
+  "mental_health_vs_illness": [
+    "Preventing mental health issues involves early intervention, stress management, and building a supportive environment. Seek professional guidance for personalized strategies.",
+    "Promoting positive mental health includes self-care, healthy relationships, and seeking help when needed. Incorporate activities that bring joy and relaxation into your routine.",
+    "Stigma surrounding mental illness can be combated through education, open conversations, and challenging stereotypes. Support mental health awareness initiatives to reduce stigma."
+  ],
+  "depression_information": [
+    "Supporting someone with depression involves active listening, offering empathy, and encouraging professional help.",
+    "Treatment options for clinical depression may include psychotherapy, medication, and lifestyle changes.",
+    "Therapy, such as cognitive-behavioral therapy (CBT), plays a crucial role in managing and alleviating symptoms of depression."
+  ],
+  "anxiety_vs_disorder": [
+    "Anxiety symptoms can be managed through therapy, lifestyle changes, and stress-reducing techniques without medication.",
+    "Common triggers for anxiety disorders include stress, trauma, and genetic factors.",
+    "Coping strategies for anxiety may involve deep breathing, mindfulness, and creating a support network."
+  ],
+  "stress_vs_anxiety": [
+    "Distinguishing between normal stress and problematic anxiety involves assessing the intensity and impact on daily functioning.",
+    "Relaxation techniques for managing stress and anxiety include deep breathing, meditation, and progressive muscle relaxation.",
+    "Chronic stress can contribute to mental health issues such as anxiety disorders and depression. Managing stress is essential for overall well-being."
+  ],
+  "sadness_vs_depression": [
+    "Typical sadness is transient and often related to a specific event, lasting a few days to a couple of weeks.",
+    "Common signs of clinical depression include persistent sadness, changes in appetite, and loss of interest in activities.",
+    "Self-help strategies for managing mild depressive symptoms may include regular exercise, maintaining a routine, and seeking social support."
+  ],
+  "dysthymia_and_cyclothymic_disorders": [
+    "Dysthymia symptoms include low energy, poor concentration, and feelings of hopelessness.",
+    "While therapy can be beneficial, medication may also be considered for managing cyclothymic disorder.",
+    "Persistent depressive disorder, or dysthymia, is characterized by a consistently low mood lasting for at least two years."
+  ],
+  "rapid_cycling_and_prodrome": [
+    "Treatment for rapid cycling may involve mood stabilizers, antipsychotics, and psychotherapy.",
+    "The prodrome phase may include changes in sleep patterns, mood, or energy levels before a mental health episode.",
+    "Mood stabilizers like lithium or valproate are commonly used to manage rapid cycling in bipolar disorder."
+  ],
+  "adhd_concerns": [
+    "Common signs of adult ADHD include forgetfulness, impulsivity, and difficulty focusing.",
+    "ADHD management may involve behavioral therapy, lifestyle changes, and organizational strategies.",
+    "An ADHD assessment involves a comprehensive evaluation of symptoms, history, and functional impairments to make an accurate diagnosis."
+  ],
+  "substance_use_vs_addiction": [
+    "The line between substance use and addiction is crossed when use leads to negative consequences and loss of control.",
+    "Long-term effects of substance addiction can include physical health decline, legal issues, and strained relationships.",
+    "Interventions for substance abuse may include counseling, detoxification, and participation in support groups."
+  ],
+  "alcohol_and_drug_use_help": [
+    "Local support groups like Alcoholics Anonymous can provide valuable assistance for those struggling with alcohol addiction.",
+    "Treatment options for drug use problems may include inpatient rehabilitation, outpatient programs, and counseling.",
+    "Seeking professional help for addiction is crucial for obtaining personalized treatment, addressing underlying issues, and achieving lasting recovery."
+  ],
+  "underage_drug_use_concerns": [
+    "Open and honest communication, providing accurate information, and fostering a supportive environment can help educate children about the risks of drug use.",
+    "Community programs, school initiatives, and parental involvement can contribute to preventing underage drug use.",
+    "Parental involvement, including setting clear expectations and being actively engaged, plays a significant role in preventing drug use in teens."
+  ]
+}
