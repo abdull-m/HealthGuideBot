@@ -14,13 +14,14 @@ The **HealthGuideBot** is a Python-based chatbot project developed to serve as a
 - [Usage](#usage)
 - [Dependencies](#dependencies)
 - [Getting Started](#getting-started)
-- [License](#license)
+- [License](#license) 
 
 ## Project Overview
 
 The **HealthGuideBot** project serves as a valuable tool for users seeking health-related information and assistance with healthcare services. The integration of machine learning enhances communication effectiveness, while the user-friendly interface ensures accessibility. With ongoing improvements and feature expansions, HealthGuideBot aspires to be a reliable health companion for users.
 
 ## Objectives
+
 
 ### Create an Interactive Health Companion
 
